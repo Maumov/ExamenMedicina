@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class TestLoadSpreadSheet : MonoBehaviour
 {
+    
     public string DID = "1kNNSKzegujunNcibjI3U4mGwAyQ6VmrA8dyPdimFyoM";
     public string GID = "1046888050";
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(DownloadCSVCoroutine(DID, GID));
+       // StartCoroutine(DownloadCSVCoroutine(DID, GID));
     }
 
     public IEnumerator DownloadCSVCoroutine(string docId, string sheetId) {
