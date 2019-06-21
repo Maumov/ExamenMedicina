@@ -59,6 +59,15 @@ public class DataLoader : MonoBehaviour {
         return null;
     }
 
+    public Estudiante GetEstudiante(string cod) {
+        foreach(Estudiante e in estudiantes) {
+            if(e.id.Equals(cod)) {
+                return e;
+            }
+        }
+        return null;
+    }
+
     //Profesores
     #region
     IEnumerator GetProfesores() {

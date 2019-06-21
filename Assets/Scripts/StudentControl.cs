@@ -10,27 +10,43 @@ public class StudentControl : MonoBehaviour
 
     public Examen examen;
 
-    public void Login(string nombre, string apellido, string codigoExamen) {
 
-        Codigo cod = dataLoader.GetCodigo(codigoExamen);
+    public delegate void StudentDelegate();
+    public event StudentDelegate OnLoginSuccesful, OnInvalidCode, OnInvalidTest, OnEstudianteNoEncontrado, OnEnteredCode;
+
+    public void Login(string estudiante) {
+
+        Estudiante e = dataLoader.GetEstudiante(estudiante);
+        if(e != null) {
+            if(OnLoginSuccesful != null) {
+                OnLoginSuccesful();
+            }
+        } else {
+            if(OnEstudianteNoEncontrado != null) {
+                OnEstudianteNoEncontrado();
+            }
+        }
+    }
+
+    public void EntrarExamen(string codigo) {
+        Codigo cod = dataLoader.GetCodigo(codigo);
         if(cod != null) {
 
             Examen e = dataLoader.GetExamen(cod.examen);
             if(e != null) {
                 examen = e;
-
+                if(OnEnteredCode != null) {
+                    OnEnteredCode();
+                }
             } else {
-                //examen no existe
+                if(OnInvalidTest != null) {
+                    OnInvalidTest();
+                }
             }
         } else {
-            //Codigo no existe
+            if(OnInvalidCode != null) {
+                OnInvalidCode();
+            }
         }
     }
-
-    public void ShowExamen() {
-
-    }
-
-
-
 }
