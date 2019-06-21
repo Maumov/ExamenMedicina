@@ -256,6 +256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionTest:
+    id: 
     parrafo: El parrafo va aqui
     video: el video va aqui
     preguntas:
@@ -272,6 +273,7 @@ MonoBehaviour:
     apellido: el apellido
   examenTest:
     id: 001
+    nombre: 
     profesor:
       id: 001
       nombre: el nombre
@@ -280,6 +282,11 @@ MonoBehaviour:
     - 001
     - 002
     - 003
+  codigoTest:
+    id: 001
+    examen: 003
+    fechaInicio: 20-06-2019-12-30
+    fechaFin: 20-06-2019-15-30
 --- !u!114 &868979326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,6 +303,7 @@ MonoBehaviour:
   estudiantes: []
   examenes: []
   preguntas: []
+  codigos: []
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
