@@ -15,6 +15,7 @@ public class ExamenViewer : MonoBehaviour {
     public GameObject Video;
     public GameObject Respuesta;
 
+    public DataLoader dataLoader;
     public void ShowExamen() {
         examen = studentControl.examen;
 
@@ -24,9 +25,20 @@ public class ExamenViewer : MonoBehaviour {
         //Generar pregunta 1;
 
     }
+    [ContextMenu("TEST CREACION DE PREGUNTA")]
+    public void TestCreacionDePregunta() {
+        CreatePreguntaPack("001");
+    }
+
 
     public void CreatePreguntaPack(string id) {
-
+        Question q = dataLoader.GetQuestion(id);
+        CreateParrafo(q.parrafo);
+        CreateVideoButton(q.video);
+        for(int i = 0; i< q.preguntas.Count; i++) {
+            CreatePregunta(q.preguntas[i]);
+            CreateRespuesta();
+        }
     }
    
     public void CreateParrafo(string parrafo) {
@@ -39,7 +51,7 @@ public class ExamenViewer : MonoBehaviour {
         Text text = go.GetComponent<Text>();
         text.text = pregunta;
     }
-    public void CreateVideoButton() {
+    public void CreateVideoButton(string video) {
         GameObject go = Instantiate(Video, origin);   
     }
     public void CreateRespuesta() {

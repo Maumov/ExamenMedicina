@@ -23,7 +23,7 @@ public class DataLoader : MonoBehaviour {
         StartCoroutine(GetCodigos());
     }
 
-    Profesor GetProfesor(string id) {
+    public Profesor GetProfesor(string id) {
         foreach(Profesor p in profesores) {
             if(p.id.Equals(id)) {
                 return p;
@@ -32,7 +32,7 @@ public class DataLoader : MonoBehaviour {
         return null;
     }
 
-    Question GetQuestion(string id) {
+    public Question GetQuestion(string id) {
         foreach(Question q in preguntas) {
             if(q.id.Equals(id)) {
                 return q;
