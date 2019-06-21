@@ -819,9 +819,9 @@ GameObject:
   - component: {fileID: 3716096938824139855}
   - component: {fileID: 645048700174135334}
   - component: {fileID: 3339236745289602649}
-  - component: {fileID: 4577703598276132860}
+  - component: {fileID: 1674229052748941411}
   m_Layer: 5
-  m_Name: InicioEstudianteCanvas
+  m_Name: EstudianteCodigoCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4577703598276132860
+--- !u!114 &1674229052748941411
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -917,6 +917,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 9222290886025305084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61f313a1fdb8d55488570989d5da291a, type: 3}
+  m_Script: {fileID: 11500000, guid: 97b2fd196a8783a478abb00a90d9a233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  codigo: {fileID: 2534070019530338214}
+  studentControl: {fileID: 0}

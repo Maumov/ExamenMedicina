@@ -5,11 +5,8 @@ using UnityEngine;
 public class StudentControl : MonoBehaviour
 {
     public Estudiante estudiante;
-
     public DataLoader dataLoader;
-
     public Examen examen;
-
 
     public delegate void StudentDelegate();
     public event StudentDelegate OnLoginSuccesful, OnInvalidCode, OnInvalidTest, OnEstudianteNoEncontrado, OnEnteredCode;
@@ -31,7 +28,6 @@ public class StudentControl : MonoBehaviour
     public void EntrarExamen(string codigo) {
         Codigo cod = dataLoader.GetCodigo(codigo);
         if(cod != null) {
-
             Examen e = dataLoader.GetExamen(cod.examen);
             if(e != null) {
                 examen = e;
