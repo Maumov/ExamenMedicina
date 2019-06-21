@@ -515,8 +515,8 @@ Camera:
   m_GameObject: {fileID: 770901009}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 0, b: 0.90136623, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2247,6 +2247,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: studentControl
+      value: 
+      objectReference: {fileID: 3387130774839438700}
+    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: dataLoader
+      value: 
+      objectReference: {fileID: 8678948333959580814}
     - target: {fileID: 7398128565230243214, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_Name
@@ -2382,6 +2392,16 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7398128566090661840, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398128566090661840, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.00012240002
+      objectReference: {fileID: 0}
     - target: {fileID: 7398128566455579883, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -2422,39 +2442,28 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7398128565200983167, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398128564746191085, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398128565594325488, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398128566090661855, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b3c0cffa25969d4785322aa3dda56a7, type: 3}
---- !u!1 &7398128564952019560 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7398128566090661841, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-    type: 3}
-  m_PrefabInstance: {fileID: 7398128564952019559}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7398128564952019561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7398128564952019560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e2179cedeabe764c97e76e8b750c633, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  examen:
-    id: 
-    nombre: 
-    profesor:
-      id: 
-      nombre: 
-      apellido: 
-    preguntas: []
-  origin: {fileID: 0}
-  Parrafo: {fileID: 0}
-  Pregunta: {fileID: 0}
-  Video: {fileID: 0}
-  Respuesta: {fileID: 0}
 --- !u!1001 &7457743538306474246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2905,6 +2914,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27d0106d952a3bf499f829c03fc86ae2, type: 3}
+--- !u!114 &8678948333959580814 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+    type: 3}
+  m_PrefabInstance: {fileID: 6539963798223775130}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aa6472b517e1f24caeab7a5744aa33b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &9034643362377204323
 PrefabInstance:
   m_ObjectHideFlags: 0

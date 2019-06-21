@@ -446,6 +446,7 @@ GameObject:
   - component: {fileID: 7398128565230243211}
   - component: {fileID: 7398128565230243212}
   - component: {fileID: 7398128565230243213}
+  - component: {fileID: 906687235241909374}
   m_Layer: 5
   m_Name: CuestionarioCanvas
   m_TagString: Untagged
@@ -533,6 +534,35 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &906687235241909374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7398128565230243214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e2179cedeabe764c97e76e8b750c633, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  studentControl: {fileID: 0}
+  examen:
+    id: 
+    nombre: 
+    profesor:
+      id: 
+      nombre: 
+      apellido: 
+    preguntas: []
+  origin: {fileID: 7398128566090661840}
+  Parrafo: {fileID: 2117836128224589629, guid: 647e19be05c3692448b6fb55dc9fbb0a, type: 3}
+  Pregunta: {fileID: 3059875915488624539, guid: 978186efdd1d4044297a73d82d7e570f,
+    type: 3}
+  Video: {fileID: 3622593367428076751, guid: 4968d2d631be78147bf43ffc930b829a, type: 3}
+  Respuesta: {fileID: 1675890987944261827, guid: a52213ef16be06e479d971f7ed319ce7,
+    type: 3}
+  dataLoader: {fileID: 0}
 --- !u!1 &7398128565380377240
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,7 +739,6 @@ GameObject:
   - component: {fileID: 7398128566090661855}
   - component: {fileID: 7398128566090661852}
   - component: {fileID: 7398128566090661853}
-  - component: {fileID: 8130261193384829298}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -812,33 +841,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 1
---- !u!114 &8130261193384829298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7398128566090661841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e2179cedeabe764c97e76e8b750c633, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  examen:
-    id: 
-    nombre: 
-    profesor:
-      id: 
-      nombre: 
-      apellido: 
-    preguntas: []
-  origin: {fileID: 7398128566090661840}
-  Parrafo: {fileID: 2117836128224589629, guid: 647e19be05c3692448b6fb55dc9fbb0a, type: 3}
-  Pregunta: {fileID: 3059875915488624539, guid: 978186efdd1d4044297a73d82d7e570f,
-    type: 3}
-  Video: {fileID: 4895632633868120439, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136, type: 3}
-  Respuesta: {fileID: 1675890987944261827, guid: a52213ef16be06e479d971f7ed319ce7,
-    type: 3}
 --- !u!1 &7398128566455579884
 GameObject:
   m_ObjectHideFlags: 0

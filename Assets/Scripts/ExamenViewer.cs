@@ -27,7 +27,7 @@ public class ExamenViewer : MonoBehaviour {
     }
     [ContextMenu("TEST CREACION DE PREGUNTA")]
     public void TestCreacionDePregunta() {
-        CreatePreguntaPack("001");
+        CreatePreguntaPack("1");
     }
 
 
@@ -43,12 +43,12 @@ public class ExamenViewer : MonoBehaviour {
    
     public void CreateParrafo(string parrafo) {
         GameObject go = Instantiate(Parrafo, origin);
-        Text text = go.GetComponent<Text>();
+        Text text = go.GetComponentInChildren<Text>();
         text.text = parrafo;
     }
     public void CreatePregunta(string pregunta) {
         GameObject go = Instantiate(Pregunta, origin);
-        Text text = go.GetComponent<Text>();
+        Text text = go.GetComponentInChildren<Text>();
         text.text = pregunta;
     }
     public void CreateVideoButton(string video) {
