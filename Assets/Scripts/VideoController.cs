@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MaterialController : MonoBehaviour
+public class VideoController : MonoBehaviour
 {
     //public string propertyName;
     public float offSetSpeed;
