@@ -6,6 +6,4 @@ public class TeacherControl : MonoBehaviour
 {
     public Profesor profesor;
 
-
-
 }
