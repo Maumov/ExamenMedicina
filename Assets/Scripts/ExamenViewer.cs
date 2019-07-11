@@ -37,6 +37,9 @@ public class ExamenViewer : MonoBehaviour {
             CreatePreguntaPack(examen.preguntas[currentPregunta]);
         } else {
             //EnviarExamen
+            studentControl.SendRespuestas();
+            //-----------
+
         }
         
     }

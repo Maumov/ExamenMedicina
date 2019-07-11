@@ -125,6 +125,8 @@ public class DataMaker : MonoBehaviour {
         yield return null;
         Debug.Log("Sent");
     }
+
+    
 }
 
 [System.Serializable]
@@ -160,6 +162,16 @@ public class Question {
     public string video;
     public List<string> preguntas;
     public List<string> respuestas;
+
+    public override string ToString() {
+        string s = "";
+        s += "{" + id + "," + parrafo + "," + video + ",{";
+        for(int i = 0; i< preguntas.Count; i++) {
+            s += "{" + preguntas[i] + " ; Respuesta: " + respuestas[i] + "}";
+        }
+        s += "}";
+        return s;
+    }
 }
 [System.Serializable]
 public class Codigo {
@@ -168,3 +180,27 @@ public class Codigo {
     public string fechaInicio;
     public string fechaFin;
 }
+
+//public static class JsonHelper {
+//    public static T[] FromJson<T>(string json) {
+//        Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(json);
+//        return wrapper.Items;
+//    }
+
+//    public static string ToJson<T>(T[] array) {
+//        Wrapper<T> wrapper = new Wrapper<T>();
+//        wrapper.Items = array;
+//        return JsonUtility.ToJson(wrapper);
+//    }
+
+//    public static string ToJson<T>(T[] array, bool prettyPrint) {
+//        Wrapper<T> wrapper = new Wrapper<T>();
+//        wrapper.Items = array;
+//        return JsonUtility.ToJson(wrapper, prettyPrint);
+//    }
+
+//    [System.Serializable]
+//    private class Wrapper<T> {
+//        public T[] Items;
+//    }
+//}
