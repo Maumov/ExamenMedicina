@@ -21,7 +21,7 @@ public class MaterialController : MonoBehaviour
         mat.mainTextureOffset = new Vector2(mat.mainTextureOffset.x + (offSetSpeed * Time.deltaTime), mat.mainTextureOffset.y);
     }
 
-    void Restart() {
+    public void Restart() {
         mat.mainTextureOffset = new Vector2(0f, mat.mainTextureOffset.y);
     }
 }
