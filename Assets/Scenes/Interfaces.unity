@@ -2166,6 +2166,11 @@ PrefabInstance:
       propertyPath: examenes.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
         type: 3}
       propertyPath: curva.m_Curve.Array.size
@@ -2671,12 +2676,12 @@ PrefabInstance:
     - target: {fileID: 4542904899822093531, guid: 580add463b88d794889669cde9f99bd3,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.567
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4542904899822093531, guid: 580add463b88d794889669cde9f99bd3,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.567
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4542904899822093531, guid: 580add463b88d794889669cde9f99bd3,
         type: 3}
@@ -2821,7 +2826,7 @@ PrefabInstance:
     - target: {fileID: 7457743539148656177, guid: 580add463b88d794889669cde9f99bd3,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -782.3668
+      value: -780.5065
       objectReference: {fileID: 0}
     - target: {fileID: 7457743539148656177, guid: 580add463b88d794889669cde9f99bd3,
         type: 3}
@@ -2939,6 +2944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542904900000862147, guid: 580add463b88d794889669cde9f99bd3,
+        type: 3}
+      propertyPath: m_Value
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 580add463b88d794889669cde9f99bd3, type: 3}
