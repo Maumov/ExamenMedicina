@@ -9,6 +9,7 @@ public class DataLoader : MonoBehaviour {
     public List<Question> preguntas;
     public List<Codigo> codigos;
 
+    public List<Video> videos;
 
     private void Start() {
         GetAllData();
@@ -288,7 +289,5 @@ public class DataLoader : MonoBehaviour {
         return p;
     }
     #endregion
-
-    
 
 }

@@ -181,6 +181,18 @@ public class Codigo {
     public string fechaFin;
 }
 
+[System.Serializable]
+public class Video {
+    public string nombre;
+    public Animation animacion;
+    public Sprite verde;
+    public Sprite rojo;
+    public Sprite amarillo;
+    public Sprite azul;
+}
+
+
+
 //public static class JsonHelper {
 //    public static T[] FromJson<T>(string json) {
 //        Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(json);
