@@ -197,7 +197,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7412883498337893241}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2349785408774318057}
+        m_MethodName: BotonProfesor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &7522794333795029892
@@ -397,7 +408,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6318583904126828839}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2349785408774318057}
+        m_MethodName: BotonEstudiante
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &8481511909894565084
@@ -664,6 +686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5b9ceb16d3c1545b5787f075f73dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InicioEstudiante: {fileID: 0}
+  InicioProfesor: {fileID: 0}
 --- !u!1 &9005316823224934946
 GameObject:
   m_ObjectHideFlags: 0

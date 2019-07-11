@@ -725,7 +725,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8722656657570733335}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1674229052748941411}
+        m_MethodName: ButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &9033889904000061800
@@ -920,5 +931,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b2fd196a8783a478abb00a90d9a233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  codigo: {fileID: 2534070019530338214}
+  NextView: {fileID: 0}
+  PreviusView: {fileID: 0}
   studentControl: {fileID: 0}
+  teacherControl: {fileID: 0}
+  codigo: {fileID: 2534070019530338214}

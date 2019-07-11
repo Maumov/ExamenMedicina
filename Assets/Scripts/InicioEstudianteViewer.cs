@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InicioEstudianteViewer : MonoBehaviour {
+public class InicioEstudianteViewer : BaseInterface {
 
     public InputField estudiante;
-    
-    public StudentControl studentControl;
+
+    private void Start() {
+        studentControl.OnLoginSuccesful += NextInterface;
+    }
 
     public void ButtonPressed() {
         studentControl.Login(estudiante.text);
     }
+
 }

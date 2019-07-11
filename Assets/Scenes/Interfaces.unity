@@ -120,6 +120,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &89862434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7398128565230243214, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 7398128564952019559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &502589075
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +266,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511202647}
   m_CullTransparentMesh: 0
+--- !u!1 &579293610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8481511911192831833, guid: 27d0106d952a3bf499f829c03fc86ae2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8481511909650134527}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &591456680
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,6 +490,16 @@ PrefabInstance:
       propertyPath: studentControl
       value: 
       objectReference: {fileID: 3387130774839438700}
+    - target: {fileID: 5180185321727532415, guid: 85f132d8bb79d344ebf2c46f68e3ee8d,
+        type: 3}
+      propertyPath: PreviusView
+      value: 
+      objectReference: {fileID: 579293610}
+    - target: {fileID: 5180185321727532415, guid: 85f132d8bb79d344ebf2c46f68e3ee8d,
+        type: 3}
+      propertyPath: NextView
+      value: 
+      objectReference: {fileID: 9034643362377204324}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85f132d8bb79d344ebf2c46f68e3ee8d, type: 3}
 --- !u!1 &770901009
@@ -563,6 +585,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &905049554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5874050634324852483, guid: 85f132d8bb79d344ebf2c46f68e3ee8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 763868497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1149325547
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,13 +603,14 @@ GameObject:
   - component: {fileID: 1149325550}
   - component: {fileID: 1149325549}
   - component: {fileID: 1149325548}
+  - component: {fileID: 1149325552}
   m_Layer: 5
   m_Name: LogoCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1149325548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,6 +692,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1149325552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149325547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6febeef7ff1791d428fafd9046642d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inicio: {fileID: 579293610}
 --- !u!1 &1275466990
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,6 +2156,151 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: preguntas.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: examenes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[0].value
+      value: 0.20989609
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[1].time
+      value: 0.3224967
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[1].value
+      value: 0.8310375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[1].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[0].inSlope
+      value: 1.9195911
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[0].outSlope
+      value: 1.9195911
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[0].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[1].inSlope
+      value: -1.8266774
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[1].outSlope
+      value: -1.8266774
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[0].time
+      value: -0.001083374
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[1].outWeight
+      value: 0.06986003
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[2].time
+      value: 0.6710236
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[2].value
+      value: 0.75095046
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[2].inSlope
+      value: -5.232861
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[2].outSlope
+      value: -5.232861
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[2].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[2].outWeight
+      value: 0.042126875
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[3].time
+      value: 1.0043335
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[3].value
+      value: 0.20648575
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[3].inSlope
+      value: -1.633509
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[3].outSlope
+      value: -1.633509
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[3].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: curva.m_Curve.Array.data[3].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 794bd31cd49c22e4d93abc9a6a185875, type: 3}
 --- !u!1001 &6640367613021906609
@@ -2380,7 +2567,7 @@ PrefabInstance:
     - target: {fileID: 7398128566090661840, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -942.6875
+      value: -942.47546
       objectReference: {fileID: 0}
     - target: {fileID: 7398128566090661840, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
@@ -2906,7 +3093,7 @@ PrefabInstance:
         type: 3}
       propertyPath: InicioEstudiante
       value: 
-      objectReference: {fileID: 9034643362377204324}
+      objectReference: {fileID: 905049554}
     - target: {fileID: 2349785408774318057, guid: 27d0106d952a3bf499f829c03fc86ae2,
         type: 3}
       propertyPath: InicioProfesor
@@ -3059,6 +3246,16 @@ PrefabInstance:
       propertyPath: studentControl
       value: 
       objectReference: {fileID: 3387130774839438700}
+    - target: {fileID: 1674229052748941411, guid: 361bf2904b2ff8341b83c604575f34f4,
+        type: 3}
+      propertyPath: PreviusView
+      value: 
+      objectReference: {fileID: 905049554}
+    - target: {fileID: 1674229052748941411, guid: 361bf2904b2ff8341b83c604575f34f4,
+        type: 3}
+      propertyPath: NextView
+      value: 
+      objectReference: {fileID: 89862434}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 361bf2904b2ff8341b83c604575f34f4, type: 3}
 --- !u!1 &9034643362377204324 stripped

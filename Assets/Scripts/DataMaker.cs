@@ -18,7 +18,7 @@ public class DataMaker : MonoBehaviour {
     IEnumerator GenerateQuestion(Question question) {
         string url = "https://docs.google.com/forms/d/1bZwJLDpG5UL1-oy7Fb0KPBvm6DJKxBlVhoAfIUm0AuU/formResponse?embedded=true";
         WWWForm form = new WWWForm();
-
+        form.AddField("entry.957284751", question.id);
         form.AddField("entry.757561497",  question.parrafo);
         form.AddField("entry.1228001765",  question.video);
         form.AddField("entry.1168160256",  GeneratePreguntasJSON(question));

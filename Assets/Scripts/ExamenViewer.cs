@@ -16,15 +16,41 @@ public class ExamenViewer : MonoBehaviour {
     public GameObject Respuesta;
 
     public DataLoader dataLoader;
+
+    int currentPregunta = 0;
+
+    public List<InputField> inputs;
+
+    private void OnEnable() {
+        ShowExamen();
+    }
+
     public void ShowExamen() {
         examen = studentControl.examen;
-
-        //
-        //
-        //
-        //Generar pregunta 1;
-
+        currentPregunta = 0;
+        ShowQuestion();
     }
+
+    public void ShowQuestion() {
+        inputs = new List<InputField>();
+        if(currentPregunta < examen.preguntas.Count) {
+            CreatePreguntaPack(examen.preguntas[currentPregunta]);
+        } else {
+            //EnviarExamen
+        }
+        
+    }
+
+    public void NextQuestion() {
+        for(int i = 0; i < inputs.Count; i++  ) {
+            studentControl.SetAnswerToQuestion(currentPregunta, i, inputs[i].text);
+        }
+        DeleteContent();
+        currentPregunta++;
+        ShowQuestion();
+    }
+
+
     [ContextMenu("TEST CREACION DE PREGUNTA")]
     public void TestCreacionDePregunta() {
         CreatePreguntaPack("1");
@@ -56,5 +82,15 @@ public class ExamenViewer : MonoBehaviour {
     }
     public void CreateRespuesta() {
         GameObject go = Instantiate(Respuesta, origin);
+        inputs.Add(go.GetComponent<InputField>()); 
+    }
+
+    public void DeleteContent() {
+        RectTransform[] gos = origin.GetComponentsInChildren<RectTransform>();
+        foreach(RectTransform rt in gos) {
+            if(rt != origin.GetComponent<RectTransform>()) {
+                Destroy(rt.gameObject);
+            }
+        }
     }
 }
