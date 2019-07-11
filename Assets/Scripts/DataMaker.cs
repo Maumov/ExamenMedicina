@@ -189,8 +189,22 @@ public class Video {
     public Sprite rojo;
     public Sprite amarillo;
     public Sprite azul;
+    public List<Numeros> numbers;
 }
-
+[System.Serializable]
+public class Numeros {
+    public string HRBPM;
+    public string ABP1;
+    public string ABP2;
+    public string SpO2;
+    public string CO2;
+    public string RespRate;
+    public string TempC;
+    public string NIPB1;
+    public string NIPB2;
+    public string Timer;
+    public string Interval;
+}
 
 
 //public static class JsonHelper {
