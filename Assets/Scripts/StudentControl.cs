@@ -11,7 +11,7 @@ public class StudentControl : MonoBehaviour
     public List<Question> preguntas;
     
     public delegate void StudentDelegate();
-    public event StudentDelegate OnLoginSuccesful, OnInvalidCode, OnInvalidTest, OnEstudianteNoEncontrado, OnEnteredCode;
+    public event StudentDelegate OnLoginSuccesful, OnInvalidCode, OnInvalidTest, OnEstudianteNoEncontrado, OnEnteredCode, OnCodigoNotReady;
 
     public void Login(string codigoEstudiante) {
 
@@ -32,16 +32,22 @@ public class StudentControl : MonoBehaviour
     public void EntrarExamen(string codigo) {
         Codigo cod = dataLoader.GetCodigo(codigo);
         if(cod != null) {
-            Examen e = dataLoader.GetExamen(cod.examen);
-            if(e != null) {
-                examen = e;
-                LlenarPreguntas();
-                if(OnEnteredCode != null) {
-                    OnEnteredCode();
+            if(!CodigoIsAvailable(cod)) {
+                if(OnCodigoNotReady != null) {
+                    OnCodigoNotReady();
                 }
             } else {
-                if(OnInvalidTest != null) {
-                    OnInvalidTest();
+                Examen e = dataLoader.GetExamen(cod.examen);
+                if(e != null) {
+                    examen = e;
+                    LlenarPreguntas();
+                    if(OnEnteredCode != null) {
+                        OnEnteredCode();
+                    }
+                } else {
+                    if(OnInvalidTest != null) {
+                        OnInvalidTest();
+                    }
                 }
             }
         } else {
@@ -49,6 +55,21 @@ public class StudentControl : MonoBehaviour
                 OnInvalidCode();
             }
         }
+    }
+
+    bool CodigoIsAvailable(Codigo cod) {
+        System.DateTime dateNow = System.DateTime.Now;
+        string[] fechaInicio = cod.fechaInicio.Split('-');
+        string[] fechaFin = cod.fechaFin.Split('-');
+        System.DateTime trialDateStart = new System.DateTime(int.Parse(fechaInicio[2]), int.Parse(fechaInicio[1]), int.Parse(fechaInicio[0]), int.Parse(fechaInicio[3]), int.Parse(fechaInicio[4]), 0);
+        System.DateTime trialDateEnd = new System.DateTime(int.Parse(fechaFin[2]), int.Parse(fechaFin[1]), int.Parse(fechaFin[0]),int.Parse(fechaFin[3]), int.Parse(fechaFin[4]), 0);
+        if(dateNow <= trialDateStart || dateNow >= trialDateEnd) {
+            //to disable this trial code, just comment the line below.
+            return false;
+        } else {
+            return true;
+        }
+        
     }
 
     void LlenarPreguntas() {
