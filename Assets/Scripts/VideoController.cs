@@ -42,5 +42,12 @@ public class VideoController : MonoBehaviour
         mat.mainTextureOffset = new Vector2(mat.mainTextureOffset.x + (speed * Time.deltaTime), mat.mainTextureOffset.y);
     }
 
+    public void Sonido() {
+
+    }
+
+    public void Numeros() {
+
+    }
 
 }
