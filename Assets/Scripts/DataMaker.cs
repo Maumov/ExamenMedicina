@@ -184,7 +184,7 @@ public class Codigo {
 [System.Serializable]
 public class Video {
     public string nombre;
-    public Animation animacion;
+    public AnimationClip animacion;
     public Sprite verde;
     public Sprite rojo;
     public Sprite amarillo;
