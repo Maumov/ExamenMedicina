@@ -102,10 +102,10 @@ MonoBehaviour:
     rojo: {fileID: 21300000, guid: c0e8a1e5af5623b40ae8b7782708f1ac, type: 3}
     amarillo: {fileID: 21300000, guid: 02a9877eb36d95f458b1f1f7d3ce5e0e, type: 3}
     azul: {fileID: 21300000, guid: bd98a5baad2416241bc8e2244e4e080a, type: 3}
-    verde1: {fileID: 21300000, guid: 284099d6c846c414bae96e8473f0d908, type: 3}
-    rojo1: {fileID: 21300000, guid: 7a03bb4312b7e47418e781082d70c5aa, type: 3}
-    amarillo1: {fileID: 21300000, guid: e65ab595d1ecfd74c9f920db8de0307b, type: 3}
-    azul1: {fileID: 21300000, guid: 58b03ecff31b2d643aa5e8c8e58db6f6, type: 3}
+    verde1: {fileID: 21300000, guid: de8e3337ac8ce02428b941c67e661fd8, type: 3}
+    rojo1: {fileID: 21300000, guid: c0e8a1e5af5623b40ae8b7782708f1ac, type: 3}
+    amarillo1: {fileID: 21300000, guid: 02a9877eb36d95f458b1f1f7d3ce5e0e, type: 3}
+    azul1: {fileID: 21300000, guid: bd98a5baad2416241bc8e2244e4e080a, type: 3}
     numbers:
     - HRBPM: 80
       ABP1: 120/80
@@ -245,7 +245,7 @@ MonoBehaviour:
     rojo: {fileID: 21300000, guid: 5bf32d80ce28a714d9f07bc7730ec1b4, type: 3}
     amarillo: {fileID: 21300000, guid: 39f3eed669205264486cff14f9784095, type: 3}
     azul: {fileID: 21300000, guid: a7802256a51768b41922bc58642805e3, type: 3}
-    verde1: {fileID: 21300000, guid: a4d4a0167226520478e2d40ecbc9ab4a, type: 3}
+    verde1: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
     rojo1: {fileID: 21300000, guid: 3aec4e5b90004ee4ca7182feae769246, type: 3}
     amarillo1: {fileID: 21300000, guid: 0314a127e60b2a1459709d7463afd53d, type: 3}
     azul1: {fileID: 21300000, guid: 7de68108784402d42a69edc707bc9491, type: 3}
@@ -505,11 +505,11 @@ MonoBehaviour:
       Interval: Interval 5 min
   - nombre: FA INESTABLE
     animacion: {fileID: 7400000, guid: 9b9c7487533ca98478326b92d903b82b, type: 2}
-    verde: {fileID: 21300000, guid: c2b8ce31eadf077448610493d774f718, type: 3}
+    verde: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
     rojo: {fileID: 21300000, guid: 7304d54ef68e18742998f4cca60b3d32, type: 3}
     amarillo: {fileID: 21300000, guid: 7f83754d8a21b5e489b79669e9bf3394, type: 3}
     azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
-    verde1: {fileID: 21300000, guid: 5cc58c8c690864049bb7ab334361e04a, type: 3}
+    verde1: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
     rojo1: {fileID: 21300000, guid: 4723a73832aafcd42b51dbd754e91617, type: 3}
     amarillo1: {fileID: 21300000, guid: 89e8ed125c8476c4180631193ef0e48f, type: 3}
     azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
@@ -745,72 +745,138 @@ MonoBehaviour:
       NIPB2: (66)
       Timer: 171
       Interval: Interval 5 min
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
+  - nombre: TV ESTABLE
+    animacion: {fileID: 7400000, guid: d3558cb6e648bf34c9fd9a32aae85bf5, type: 2}
+    verde: {fileID: 21300000, guid: a1107d8dac9a9fe4599c12140d14fb23, type: 3}
+    rojo: {fileID: 21300000, guid: 3ce52e289a323fa4491e5dbec9d6abfe, type: 3}
+    amarillo: {fileID: 21300000, guid: 50755c3e8fbccf04792c76830d78537e, type: 3}
+    azul: {fileID: 21300000, guid: 339b400d451c60e4db3c0ff16295a21d, type: 3}
+    verde1: {fileID: 21300000, guid: 89f289f785ee6a9468fc6fef1dfbe9c4, type: 3}
+    rojo1: {fileID: 21300000, guid: a9e8b05afc968e444ba739e6ec4ed487, type: 3}
+    amarillo1: {fileID: 21300000, guid: c15d819c74a240049a2ddabf47f57cf6, type: 3}
+    azul1: {fileID: 21300000, guid: 22eee4c98c0b162428f4b8b1a63c80b3, type: 3}
+    numbers:
+    - HRBPM: 182
+      ABP1: 130/80
+      ABP2: (96)
+      SpO2: 98
+      CO2: '---'
+      RespRate: '---'
+      TempC: 
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 227
+      Interval: Interval 5 min
+  - nombre: TV INESTABLE
+    animacion: {fileID: 7400000, guid: 7055fdb56aeee0e47afad3882ec44d50, type: 2}
+    verde: {fileID: 21300000, guid: 77bed5dd4c98296459129ca9ac3c3d2c, type: 3}
+    rojo: {fileID: 21300000, guid: 1678ba24fbf568c41ad898b89a40d850, type: 3}
+    amarillo: {fileID: 21300000, guid: e4299d59831bf7d45829a0df09323a07, type: 3}
+    azul: {fileID: 21300000, guid: edffab60f54513542a6ef6a7b1fb39ca, type: 3}
+    verde1: {fileID: 21300000, guid: 3e54f0c6381f7c349871062ad413c225, type: 3}
+    rojo1: {fileID: 21300000, guid: 5c568e3ea7880b144bb0de642536e163, type: 3}
+    amarillo1: {fileID: 21300000, guid: fbf10bb1058c810429b6577baa2ec647, type: 3}
+    azul1: {fileID: 21300000, guid: db49a2988d133c04ca1c8cb6ecba957b, type: 3}
+    numbers:
+    - HRBPM: 182
+      ABP1: 86/44
+      ABP2: (57)
+      SpO2: 87
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 107
+      Interval: Interval 5 min
+  - nombre: TV SP
+    animacion: {fileID: 7400000, guid: 1e47836e3e838794685c31d0d1324f0e, type: 2}
+    verde: {fileID: 21300000, guid: fdec8764f5287cb40aa9e99cf81e492c, type: 3}
+    rojo: {fileID: 21300000, guid: fd8341984e1a78b4184efb623a76bbdd, type: 3}
+    amarillo: {fileID: 21300000, guid: 2b953563222b26b4987cacc6abf2b5e4, type: 3}
+    azul: {fileID: 21300000, guid: 8aa7b01fecd650e4485fbf395303e6cc, type: 3}
+    verde1: {fileID: 21300000, guid: 082bfe7b6556bb64eb7cfffbf7612c65, type: 3}
+    rojo1: {fileID: 21300000, guid: 0fb70065bfbee7e4f9d13b7e55c895e1, type: 3}
+    amarillo1: {fileID: 21300000, guid: eea6563ed1939ac469a13d2d8a0889c5, type: 3}
+    azul1: {fileID: 21300000, guid: e07d1171c7a73234fae695aa3ae44ddf, type: 3}
+    numbers:
+    - HRBPM: 182
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 16
+      Interval: Interval 5 min
+  - nombre: TAQ ESTABLE
+    animacion: {fileID: 7400000, guid: 047222a8c6fcad647b82cf1af7d56ba3, type: 2}
+    verde: {fileID: 21300000, guid: 36ba80cb50892c147b8e8b9c94b6e326, type: 3}
+    rojo: {fileID: 21300000, guid: 030a8051cc156b34d9f0290f408425bd, type: 3}
+    amarillo: {fileID: 21300000, guid: 022572a79b2e3914fa90c44ca8d87025, type: 3}
+    azul: {fileID: 21300000, guid: ac98fb44e8e02414bb7d6df9adc1db2d, type: 3}
+    verde1: {fileID: 21300000, guid: 865f00204f54c304cafa9381567b2b00, type: 3}
+    rojo1: {fileID: 21300000, guid: bfec3847b978fb0438b74c7018448bb3, type: 3}
+    amarillo1: {fileID: 21300000, guid: 002536722d5b1de418dc8cd71e2e356c, type: 3}
+    azul1: {fileID: 21300000, guid: d427b1526c2b2ff429279ccef0e59610, type: 3}
+    numbers:
+    - HRBPM: 182
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 82/62
+      NIPB2: (68)
+      Timer: 59
+      Interval: Interval 5 min
+  - nombre: TAQ INESTABLE
+    animacion: {fileID: 7400000, guid: 484d1666befdf354d964bd2707528002, type: 2}
+    verde: {fileID: 21300000, guid: 5b561cb3dd4640e45a38b4751e731042, type: 3}
+    rojo: {fileID: 21300000, guid: 64b72c6e924a172439e3624ac32757ae, type: 3}
+    amarillo: {fileID: 21300000, guid: d501ebbc0f4fe1248b1614c4097c934d, type: 3}
+    azul: {fileID: 21300000, guid: cd82dabd3e8d09847a665e19b6c2bc98, type: 3}
+    verde1: {fileID: 21300000, guid: 4e19d44a0419f6b4aac16c2e03755323, type: 3}
+    rojo1: {fileID: 21300000, guid: c2f0e3e026dce9241825faf7653981cd, type: 3}
+    amarillo1: {fileID: 21300000, guid: 4daf2ce53a9c88d469eb8f81a31f101c, type: 3}
+    azul1: {fileID: 21300000, guid: 02e7df993f665fa46acaee320eecee82, type: 3}
+    numbers:
+    - HRBPM: 182
+      ABP1: 82/64
+      ABP2: (69)
+      SpO2: 98
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 231
+      Interval: Interval 5 min
+  - nombre: TQ SINUSAL
+    animacion: {fileID: 7400000, guid: 52413d7af99d3da4f9243122ee446440, type: 2}
+    verde: {fileID: 21300000, guid: b3e03dac002c3e3438b5016c61a9c654, type: 3}
+    rojo: {fileID: 21300000, guid: c2a5d8f7487550b4ab891b4ad32efb2b, type: 3}
+    amarillo: {fileID: 21300000, guid: 495744a01c167db4a9fa7f49de098043, type: 3}
+    azul: {fileID: 21300000, guid: 3d46d4340f4d145488e142851167f5a1, type: 3}
+    verde1: {fileID: 21300000, guid: f7e37261486f1b04d88fb9612015cca8, type: 3}
+    rojo1: {fileID: 21300000, guid: 61f377559b9682541b53a2a43f0f2c7f, type: 3}
+    amarillo1: {fileID: 21300000, guid: 98a2a9661f9c24f4a8d1ac287325f2ce, type: 3}
+    azul1: {fileID: 21300000, guid: cf8363d333f6c704cbc418d7e0eb2689, type: 3}
+    numbers:
+    - HRBPM: '---'
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 0/0
+      NIPB2: (0)
+      Timer: 87
+      Interval: Interval 5 min
 --- !u!114 &9005044516247995944
 MonoBehaviour:
   m_ObjectHideFlags: 0
