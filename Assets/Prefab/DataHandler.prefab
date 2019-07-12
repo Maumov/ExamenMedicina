@@ -53,7 +53,7 @@ MonoBehaviour:
   codigos: []
   videos:
   - nombre: AESP1
-    animacion: {fileID: 0}
+    animacion: {fileID: 7400000, guid: 96ae81cdc0d21054ea409e4e09908191, type: 2}
     verde: {fileID: 21300000, guid: 7efe4b0df51985b4db99d7bc98aa432f, type: 3}
     rojo: {fileID: 21300000, guid: 86acbb421eaf0f1418a2b8cfd22bbae2, type: 3}
     amarillo: {fileID: 21300000, guid: bf7d3b250a9352841aeaac46752f2a1e, type: 3}
@@ -62,9 +62,20 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 48e114054508ecf4cb714f541e679cc9, type: 3}
     amarillo1: {fileID: 21300000, guid: c4ee5458c4018aa4a9f83bc3c0fbdf98, type: 3}
     azul1: {fileID: 21300000, guid: b2d7ec961b37cb84abe1d2062468dae9, type: 3}
-    numbers: []
+    numbers:
+    - HRBPM: 70
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 86/46
+      NIPB2: (58)
+      Timer: 6:48
+      Interval: Interval 9 min
   - nombre: ASISTOLIA
-    animacion: {fileID: 0}
+    animacion: {fileID: 7400000, guid: 6d26078c8fadd7744aa12ffcc194e894, type: 2}
     verde: {fileID: 21300000, guid: 96a9e760934187f45ab972b3149924c3, type: 3}
     rojo: {fileID: 21300000, guid: 858a68cc2a0b4b54185a701755f6f777, type: 3}
     amarillo: {fileID: 21300000, guid: 29f6cdcf5ed79884b80c6cd6dc187222, type: 3}
@@ -73,84 +84,667 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 858a68cc2a0b4b54185a701755f6f777, type: 3}
     amarillo1: {fileID: 21300000, guid: 29f6cdcf5ed79884b80c6cd6dc187222, type: 3}
     azul1: {fileID: 21300000, guid: 14c383819e4fad14198c5c604b541e54, type: 3}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
-  - nombre: 
-    animacion: {fileID: 0}
-    verde: {fileID: 0}
-    rojo: {fileID: 0}
-    amarillo: {fileID: 0}
-    azul: {fileID: 0}
-    verde1: {fileID: 0}
-    rojo1: {fileID: 0}
-    amarillo1: {fileID: 0}
-    azul1: {fileID: 0}
-    numbers: []
+    numbers:
+    - HRBPM: '---'
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 0/0
+      NIPB2: 0(0)
+      Timer: 5:02
+      Interval: Interval 9 min
+  - nombre: BLOQ AV 1G
+    animacion: {fileID: 7400000, guid: 415c8457557b82440abf2d4c18c552d3, type: 2}
+    verde: {fileID: 21300000, guid: de8e3337ac8ce02428b941c67e661fd8, type: 3}
+    rojo: {fileID: 21300000, guid: c0e8a1e5af5623b40ae8b7782708f1ac, type: 3}
+    amarillo: {fileID: 21300000, guid: 02a9877eb36d95f458b1f1f7d3ce5e0e, type: 3}
+    azul: {fileID: 21300000, guid: bd98a5baad2416241bc8e2244e4e080a, type: 3}
+    verde1: {fileID: 21300000, guid: 284099d6c846c414bae96e8473f0d908, type: 3}
+    rojo1: {fileID: 21300000, guid: 7a03bb4312b7e47418e781082d70c5aa, type: 3}
+    amarillo1: {fileID: 21300000, guid: e65ab595d1ecfd74c9f920db8de0307b, type: 3}
+    azul1: {fileID: 21300000, guid: 58b03ecff31b2d643aa5e8c8e58db6f6, type: 3}
+    numbers:
+    - HRBPM: 80
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 2:15
+      Interval: Interval 5 min
+  - nombre: BLOQ AV2 M1
+    animacion: {fileID: 7400000, guid: 50a9b318a626dba469aef8ad954ae9f7, type: 2}
+    verde: {fileID: 21300000, guid: f51157e06ceba91479765791d794516f, type: 3}
+    rojo: {fileID: 21300000, guid: 8024dcf1b557cdf4785cbd37ba2fda2e, type: 3}
+    amarillo: {fileID: 21300000, guid: 106bdde470d454046bed5e8ea798c407, type: 3}
+    azul: {fileID: 21300000, guid: f565ff50b761ddf40adb8cb5ff3ea8ed, type: 3}
+    verde1: {fileID: 21300000, guid: 4306884705ab5e14cae7a79370982d8f, type: 3}
+    rojo1: {fileID: 21300000, guid: 3f9d78bc1ac1b5a4a9ad36f751984453, type: 3}
+    amarillo1: {fileID: 21300000, guid: b0354499c92444b4fa24a66126c5a132, type: 3}
+    azul1: {fileID: 21300000, guid: 2f631fcaf1dad9e48bf86ea93000e9a1, type: 3}
+    numbers:
+    - HRBPM: 55
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 0:44
+      Interval: Interval 5 min
+    - HRBPM: 62
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 0:44
+      Interval: Interval 5 min
+    - HRBPM: 63
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 0:44
+      Interval: Interval 5 min
+  - nombre: BLOQ AV2 M2
+    animacion: {fileID: 7400000, guid: 669aaa5864db43641af2194a27cb6040, type: 2}
+    verde: {fileID: 21300000, guid: 5de7d106f250ef24dbcd49e857f908fb, type: 3}
+    rojo: {fileID: 21300000, guid: 9b2cda000a72d0645a196f359a73a9bb, type: 3}
+    amarillo: {fileID: 21300000, guid: 31f810f2a45b6654ab512f50344a8299, type: 3}
+    azul: {fileID: 21300000, guid: 9847909e115fad74fb3a88761ecfa0eb, type: 3}
+    verde1: {fileID: 21300000, guid: 67f55052686d9ff4f838be989e769350, type: 3}
+    rojo1: {fileID: 21300000, guid: 8002a9a13005249488e00eea7381290f, type: 3}
+    amarillo1: {fileID: 21300000, guid: d49359bf6ee07bf4c826802bb78919a9, type: 3}
+    azul1: {fileID: 21300000, guid: 19a738206c9076548b4221d70ac9c8f5, type: 3}
+    numbers:
+    - HRBPM: 48
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 4:31
+      Interval: Interval 5 min
+    - HRBPM: 40
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 4:31
+      Interval: Interval 5 min
+  - nombre: BLOQ AV3G
+    animacion: {fileID: 7400000, guid: d0dfa347ebb8bb3478e525f7f925f869, type: 2}
+    verde: {fileID: 21300000, guid: c3052a807a814df439a4688b984f1fb3, type: 3}
+    rojo: {fileID: 21300000, guid: 2f51f6e67074a904482c64c299a90d54, type: 3}
+    amarillo: {fileID: 21300000, guid: 904024e36209dbd43854a00b1c628bf1, type: 3}
+    azul: {fileID: 21300000, guid: 66d4a4b9e8b4ed94d909fb1ae55f16fe, type: 3}
+    verde1: {fileID: 21300000, guid: 2d33763bb6f0fe5419d50b8ff38ea842, type: 3}
+    rojo1: {fileID: 21300000, guid: ec20bc3cc3a11e64daa830d891bafff7, type: 3}
+    amarillo1: {fileID: 21300000, guid: 8eea2136e4b1a0a4aac26275d698efe4, type: 3}
+    azul1: {fileID: 21300000, guid: af74b666879bf2b4c86399b53b0d8d50, type: 3}
+    numbers:
+    - HRBPM: 29
+      ABP1: 88/48
+      ABP2: (61)
+      SpO2: 98
+      CO2: 34
+      RespRate: 24
+      TempC: 37.2
+      NIPB1: 94/54
+      NIPB2: (67)
+      Timer: 2:34
+      Interval: Interval 5 min
+  - nombre: BRAD SINUSAL
+    animacion: {fileID: 7400000, guid: e336d252580967d48a2c305ebe7899ab, type: 2}
+    verde: {fileID: 21300000, guid: d15a48a58a174fc44a29cb3bfab91b1c, type: 3}
+    rojo: {fileID: 21300000, guid: 187fb8b71e9a09343a10222c685d5233, type: 3}
+    amarillo: {fileID: 21300000, guid: bb5ab4afe41805d49a922cf051209744, type: 3}
+    azul: {fileID: 21300000, guid: 634c4841cc534d140b816e2c955982d2, type: 3}
+    verde1: {fileID: 21300000, guid: 8fe3241592c1ca045a860963c52aad1a, type: 3}
+    rojo1: {fileID: 21300000, guid: 9a7826b394515494ea55924469ed825b, type: 3}
+    amarillo1: {fileID: 21300000, guid: 9511f5a79f6d9c24c8f93120c66804cb, type: 3}
+    azul1: {fileID: 21300000, guid: c62057f3078e5fd43b8ef7cdd6dd127e, type: 3}
+    numbers:
+    - HRBPM: 44
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 16
+      TempC: 37.2
+      NIPB1: 0/0
+      NIPB2: (0)
+      Timer: 1:10
+      Interval: Interval 9 min
+  - nombre: FA ESTABLE
+    animacion: {fileID: 7400000, guid: f4fdfbacce3f6cb4b96b960bac9bddab, type: 2}
+    verde: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
+    rojo: {fileID: 21300000, guid: 5bf32d80ce28a714d9f07bc7730ec1b4, type: 3}
+    amarillo: {fileID: 21300000, guid: 39f3eed669205264486cff14f9784095, type: 3}
+    azul: {fileID: 21300000, guid: a7802256a51768b41922bc58642805e3, type: 3}
+    verde1: {fileID: 21300000, guid: a4d4a0167226520478e2d40ecbc9ab4a, type: 3}
+    rojo1: {fileID: 21300000, guid: 3aec4e5b90004ee4ca7182feae769246, type: 3}
+    amarillo1: {fileID: 21300000, guid: 0314a127e60b2a1459709d7463afd53d, type: 3}
+    azul1: {fileID: 21300000, guid: 7de68108784402d42a69edc707bc9491, type: 3}
+    numbers:
+    - HRBPM: 147
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 134
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 138
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 150
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 144
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 138
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 134
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 158
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 156
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 149
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 134
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 138
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 150
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 10
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+  - nombre: FA INESTABLE
+    animacion: {fileID: 7400000, guid: 9b9c7487533ca98478326b92d903b82b, type: 2}
+    verde: {fileID: 21300000, guid: c2b8ce31eadf077448610493d774f718, type: 3}
+    rojo: {fileID: 21300000, guid: 7304d54ef68e18742998f4cca60b3d32, type: 3}
+    amarillo: {fileID: 21300000, guid: 7f83754d8a21b5e489b79669e9bf3394, type: 3}
+    azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
+    verde1: {fileID: 21300000, guid: 5cc58c8c690864049bb7ab334361e04a, type: 3}
+    rojo1: {fileID: 21300000, guid: 4723a73832aafcd42b51dbd754e91617, type: 3}
+    amarillo1: {fileID: 21300000, guid: 89e8ed125c8476c4180631193ef0e48f, type: 3}
+    azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
+    numbers:
+    - HRBPM: 158
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 156
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 149
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 134
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 138
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 150
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 144
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 138
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 134
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 158
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 156
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 149
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 40
+      RespRate: 26
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
   - nombre: 
     animacion: {fileID: 0}
     verde: {fileID: 0}
