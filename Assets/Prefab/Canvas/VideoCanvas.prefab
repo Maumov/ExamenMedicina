@@ -834,6 +834,7 @@ MonoBehaviour:
   Interval: {fileID: 7404874637046554485}
   audioSourceTick: {fileID: 9177613868138365486}
   audioSourceContinue: {fileID: 156712715243170889}
+  anim: {fileID: 4555410202737659522}
 --- !u!114 &6926615172443613641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3758,6 +3759,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7457743539148656177}
     m_Modifications:
+    - target: {fileID: 4895632633868120439, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
+        type: 3}
+      propertyPath: m_Name
+      value: VideoSignal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895632633868120439, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4895632633868120432, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3862,16 +3873,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4895632633868120439, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
-        type: 3}
-      propertyPath: m_Name
-      value: VideoSignal
-      objectReference: {fileID: 0}
-    - target: {fileID: 4895632633868120439, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4895632634254238570, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
         type: 3}

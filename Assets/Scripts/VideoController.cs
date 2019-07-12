@@ -25,11 +25,11 @@ public class VideoController : MonoBehaviour
 
     int currentNumbers = 0;
 
-    Animator anim;
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
         //mat.SetTextureOffset(propertyName, new Vector2(mat.mainTextureOffset.x, mat.mainTextureOffset.y));
         //mat.mainTextureOffset = new Vector2(mat.mainTextureOffset.x + (offSetSpeed * Time.deltaTime), mat.mainTextureOffset.y));
     }
@@ -97,9 +97,11 @@ public class VideoController : MonoBehaviour
 
     public void SetVideo(Video v) {
         video = v;
-
-        anim.Play(video.nombre, 0);
-        anim.Play(video.nombre, 1);
+        Debug.Log("Video: " + v);
+        if(video != null) {
+            anim.Play(video.nombre, 0);
+            anim.Play(video.nombre, 1);
+        }
 
         currentNumbers = 0;
         green.sprite = video.verde;
@@ -118,6 +120,11 @@ public class VideoController : MonoBehaviour
         rrpm1.sprite = video.rrpm1;
 
         Numeros();
+    }
+
+    public void StopVideo() {
+        anim.Play("Pausa", 0);
+        anim.Play("Pausa", 1);
     }
 
 }
