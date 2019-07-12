@@ -929,7 +929,7 @@ MonoBehaviour:
       TempC: 37.2
       NIPB1: 0/0
       NIPB2: (0)
-      Timer: 87
+      Timer: 147
       Interval: Interval 5 min
   - nombre: TORSION DE PUNTA
     animacion: {fileID: 7400000, guid: f8c9d92a10283614094af3c044570213, type: 2}
@@ -953,7 +953,7 @@ MonoBehaviour:
       TempC: 37.2
       NIPB1: 0/0
       NIPB2: (0)
-      Timer: 87
+      Timer: 147
       Interval: Interval 5 min
 --- !u!114 &9005044516247995944
 MonoBehaviour:
