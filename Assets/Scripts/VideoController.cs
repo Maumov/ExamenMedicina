@@ -20,7 +20,7 @@ public class VideoController : MonoBehaviour
     public Text Timer;
     public Text Interval;
 
-    public AudioSource audioSource;
+    public AudioSource audioSourceTick, audioSourceContinue;
 
     int currentNumbers = 0;
 
@@ -54,7 +54,12 @@ public class VideoController : MonoBehaviour
     //}
 
     public void Sonido() {
-        audioSource.Play();
+        if(video.nombre == "ASISTOLIA") {
+            audioSourceContinue.Play();
+        } else {
+            audioSourceTick.Play();
+        }
+        
     }
 
     public void Numeros() {
