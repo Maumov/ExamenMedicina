@@ -759,7 +759,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   video:
-    nombre: 
+  - nombre: AESP1
+    animacion: {fileID: 0}
+    verde: {fileID: 21300000, guid: 7efe4b0df51985b4db99d7bc98aa432f, type: 3}
+    rojo: {fileID: 21300000, guid: 86acbb421eaf0f1418a2b8cfd22bbae2, type: 3}
+    amarillo: {fileID: 21300000, guid: bf7d3b250a9352841aeaac46752f2a1e, type: 3}
+    azul: {fileID: 21300000, guid: b4ae3cf349d3201468e2d06d2dcfe798, type: 3}
+    numbers: []
+  - nombre: ASISTOLIA
+    animacion: {fileID: 0}
+    verde: {fileID: 21300000, guid: 96a9e760934187f45ab972b3149924c3, type: 3}
+    rojo: {fileID: 21300000, guid: 858a68cc2a0b4b54185a701755f6f777, type: 3}
+    amarillo: {fileID: 21300000, guid: 29f6cdcf5ed79884b80c6cd6dc187222, type: 3}
+    azul: {fileID: 21300000, guid: 14c383819e4fad14198c5c604b541e54, type: 3}
+    numbers: []
+  - nombre: BLOQ AV 1G
+    animacion: {fileID: 0}
+    verde: {fileID: 21300000, guid: de8e3337ac8ce02428b941c67e661fd8, type: 3}
+    rojo: {fileID: 21300000, guid: 0ac7883dcc1dd5341a61780249c5ace5, type: 3}
+    amarillo: {fileID: 21300000, guid: 02a9877eb36d95f458b1f1f7d3ce5e0e, type: 3}
+    azul: {fileID: 21300000, guid: bd98a5baad2416241bc8e2244e4e080a, type: 3}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
+    animacion: {fileID: 0}
+    verde: {fileID: 0}
+    rojo: {fileID: 0}
+    amarillo: {fileID: 0}
+    azul: {fileID: 0}
+    numbers: []
+  - nombre: 
     animacion: {fileID: 0}
     verde: {fileID: 0}
     rojo: {fileID: 0}
@@ -776,16 +874,16 @@ MonoBehaviour:
   white1: {fileID: 4812882213378591724}
   HRBPM: {fileID: 2664537326515422823}
   ABP1: {fileID: 4907705589964986776}
-  ABP2: {fileID: 0}
+  ABP2: {fileID: 6292780260824185584}
   SpO2: {fileID: 1078514953521734474}
   CO2: {fileID: 5790365703512535241}
   RespRate: {fileID: 5297746034935302083}
   TempC: {fileID: 7810350456250897090}
   NIPB1: {fileID: 5679511944208429263}
-  NIPB2: {fileID: 0}
+  NIPB2: {fileID: 2204427927789838575}
   Timer: {fileID: 8089172819510892049}
   Interval: {fileID: 7404874637046554485}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 9177613868138365486}
 --- !u!82 &9177613868138365486
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2816,6 +2914,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7457743539148656177}
     m_Modifications:
+    - target: {fileID: 4895632633868120439, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
+        type: 3}
+      propertyPath: m_Name
+      value: VideoSignal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895632633868120439, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4895632633868120432, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2920,16 +3028,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4895632633868120439, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
-        type: 3}
-      propertyPath: m_Name
-      value: VideoSignal
-      objectReference: {fileID: 0}
-    - target: {fileID: 4895632633868120439, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4895632634254238570, guid: 0a9dc3eeeb9ade545b6e20bc11fb1136,
         type: 3}

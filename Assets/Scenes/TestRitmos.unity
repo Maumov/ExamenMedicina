@@ -306,6 +306,12 @@ PrefabInstance:
       propertyPath: m_FillOrigin
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8726434835449592941, guid: 580add463b88d794889669cde9f99bd3,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7efe4b0df51985b4db99d7bc98aa432f,
+        type: 3}
     - target: {fileID: 7457743538418011582, guid: 580add463b88d794889669cde9f99bd3,
         type: 3}
       propertyPath: m_Name
@@ -426,6 +432,12 @@ PrefabInstance:
       propertyPath: m_FillOrigin
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2234568911551061488, guid: 580add463b88d794889669cde9f99bd3,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7efe4b0df51985b4db99d7bc98aa432f,
+        type: 3}
     - target: {fileID: 831363308233098937, guid: 580add463b88d794889669cde9f99bd3,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -451,6 +463,12 @@ PrefabInstance:
       propertyPath: m_FillOrigin
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4251868168052325346, guid: 580add463b88d794889669cde9f99bd3,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8024dcf1b557cdf4785cbd37ba2fda2e,
+        type: 3}
     - target: {fileID: 241415378210464145, guid: 580add463b88d794889669cde9f99bd3,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -501,11 +519,6 @@ PrefabInstance:
       propertyPath: offSetSpeed4
       value: 0.25
       objectReference: {fileID: 0}
-    - target: {fileID: 1095434557654443318, guid: 580add463b88d794889669cde9f99bd3,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 135719581118054760, guid: 580add463b88d794889669cde9f99bd3,
         type: 3}
       propertyPath: m_FillOrigin
@@ -521,6 +534,12 @@ PrefabInstance:
       propertyPath: m_FillOrigin
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2388879201163862787, guid: 580add463b88d794889669cde9f99bd3,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8024dcf1b557cdf4785cbd37ba2fda2e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 580add463b88d794889669cde9f99bd3, type: 3}
 --- !u!1 &1988009130
