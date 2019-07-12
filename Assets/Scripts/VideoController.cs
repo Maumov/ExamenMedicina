@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class VideoController : MonoBehaviour
 {
+    public int testVideo = 0;
     public Video video;
 
-    public Image green, green1, red, red1, yellow, yellow1, white, white1;
+    public Image green, green1, red, red1, yellow, yellow1, white, white1, rrpm, rrpm1;
     public Text HRBPM;
     public Text ABP1;
     public Text ABP2;
@@ -82,7 +83,6 @@ public class VideoController : MonoBehaviour
         }
     }
 
-    public int testVideo = 0;
 
     [ContextMenu ("Test Video")]
     public void TestVideo() {
@@ -90,10 +90,16 @@ public class VideoController : MonoBehaviour
         SetVideo(v);
     }
 
+    public void FinishedSoundFrame()
+    {
+
+    }
+
     public void SetVideo(Video v) {
         video = v;
 
-        anim.Play(video.nombre);
+        anim.Play(video.nombre, 0);
+        anim.Play(video.nombre, 1);
 
         currentNumbers = 0;
         green.sprite = video.verde;
@@ -107,6 +113,10 @@ public class VideoController : MonoBehaviour
 
         white.sprite = video.azul;
         white1.sprite = video.azul1;
+
+        rrpm.sprite = video.rrpm;
+        rrpm1.sprite = video.rrpm1;
+
         Numeros();
     }
 
