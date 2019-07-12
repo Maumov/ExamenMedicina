@@ -907,6 +907,54 @@ MonoBehaviour:
       NIPB2: (0)
       Timer: 87
       Interval: Interval 5 min
+  - nombre: FV GRUESA
+    animacion: {fileID: 7400000, guid: f2995da19dad28e4ca3188bc248350a7, type: 2}
+    verde: {fileID: 21300000, guid: b97dd1f29d0884649b45cb974481513c, type: 3}
+    rojo: {fileID: 21300000, guid: 970f0830a01e8104c9020f9f9b34c948, type: 3}
+    amarillo: {fileID: 21300000, guid: a8ad68fbb61e1be498698bd9b32adc81, type: 3}
+    azul: {fileID: 21300000, guid: 2fa04030d14df254d8ead5a21ef84247, type: 3}
+    verde1: {fileID: 21300000, guid: b712c4129c2491444b418a4f1f9eeebd, type: 3}
+    rojo1: {fileID: 21300000, guid: 950bfbc1fef056b44a984228d1358a4d, type: 3}
+    amarillo1: {fileID: 21300000, guid: 9d162f4c9ddcb9c40a2f5e16c4ae463b, type: 3}
+    azul1: {fileID: 21300000, guid: 51a19061058d275419119130f0146528, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: '---'
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 0/0
+      NIPB2: (0)
+      Timer: 87
+      Interval: Interval 5 min
+  - nombre: TORSION DE PUNTA
+    animacion: {fileID: 7400000, guid: f8c9d92a10283614094af3c044570213, type: 2}
+    verde: {fileID: 21300000, guid: 5a0866ff0f2ed4d478feef0e39858b5e, type: 3}
+    rojo: {fileID: 21300000, guid: 578d380ee7cbbfa4c803ac4ede4bb7dd, type: 3}
+    amarillo: {fileID: 21300000, guid: cdd6b325e8bd1d045af4b947f6c438df, type: 3}
+    azul: {fileID: 21300000, guid: 547b63a50d98a6740b021f1c550cd716, type: 3}
+    verde1: {fileID: 21300000, guid: ff961422c71da384597ac840b8848c52, type: 3}
+    rojo1: {fileID: 21300000, guid: 5bad7b0b653fd7a489b76a63c0117d61, type: 3}
+    amarillo1: {fileID: 21300000, guid: 0c38a9e24988f1a4788cad5cc57a579d, type: 3}
+    azul1: {fileID: 21300000, guid: d8600020697817140a4ae75131541979, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: '---'
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 0/0
+      NIPB2: (0)
+      Timer: 87
+      Interval: Interval 5 min
 --- !u!114 &9005044516247995944
 MonoBehaviour:
   m_ObjectHideFlags: 0
