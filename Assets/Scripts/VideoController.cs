@@ -76,9 +76,12 @@ public class VideoController : MonoBehaviour
             currentNumbers = 0;
         }
     }
+
+    public int testVideo = 0;
+
     [ContextMenu ("Test Video")]
     public void TestVideo() {
-        Video v = FindObjectOfType<DataLoader>().videos[0];
+        Video v = FindObjectOfType<DataLoader>().videos[testVideo];
         SetVideo(v);
     }
 
