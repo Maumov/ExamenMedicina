@@ -2168,8 +2168,168 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
         type: 3}
-      propertyPath: videos.Array.size
-      value: 1
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].HRBPM
+      value: 158
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].ABP1
+      value: 80/60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].ABP2
+      value: (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].SpO2
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].CO2
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].RespRate
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].TempC
+      value: 37.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].NIPB1
+      value: 80/60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].NIPB2
+      value: (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].Timer
+      value: 171
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[21].Interval
+      value: Interval 5 min
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].HRBPM
+      value: 158
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].ABP1
+      value: 80/60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].ABP2
+      value: (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].SpO2
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].CO2
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].RespRate
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].TempC
+      value: 37.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].NIPB1
+      value: 80/60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].NIPB2
+      value: (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].Timer
+      value: 171
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[22].Interval
+      value: Interval 5 min
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].HRBPM
+      value: 158
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].ABP1
+      value: 80/60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].ABP2
+      value: (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].SpO2
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].CO2
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].RespRate
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].TempC
+      value: 37.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].NIPB1
+      value: 80/60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].NIPB2
+      value: (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].Timer
+      value: 171
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videos.Array.data[8].numbers.Array.data[23].Interval
+      value: Interval 5 min
       objectReference: {fileID: 0}
     - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
         type: 3}
