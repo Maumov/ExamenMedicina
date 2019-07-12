@@ -23,9 +23,12 @@ public class VideoController : MonoBehaviour
     public AudioSource audioSource;
 
     int currentNumbers = 0;
+
+    Animator anim;
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         //mat.SetTextureOffset(propertyName, new Vector2(mat.mainTextureOffset.x, mat.mainTextureOffset.y));
         //mat.mainTextureOffset = new Vector2(mat.mainTextureOffset.x + (offSetSpeed * Time.deltaTime), mat.mainTextureOffset.y));
     }
@@ -73,9 +76,17 @@ public class VideoController : MonoBehaviour
             currentNumbers = 0;
         }
     }
+    [ContextMenu ("Test Video")]
+    public void TestVideo() {
+        Video v = FindObjectOfType<DataLoader>().videos[0];
+        SetVideo(v);
+    }
 
     public void SetVideo(Video v) {
         video = v;
+
+        anim.Play(video.nombre);
+
         currentNumbers = 0;
         green.sprite = video.verde;
         green1.sprite = video.verde1;
