@@ -195,7 +195,7 @@ MonoBehaviour:
       NIPB2: (93)
       Timer: 4:31
       Interval: Interval 5 min
-  - nombre: BLOQ AV3G
+  - nombre: BLOQ AV 3G
     animacion: {fileID: 7400000, guid: d0dfa347ebb8bb3478e525f7f925f869, type: 2}
     verde: {fileID: 21300000, guid: c3052a807a814df439a4688b984f1fb3, type: 3}
     rojo: {fileID: 21300000, guid: 2f51f6e67074a904482c64c299a90d54, type: 3}
@@ -747,14 +747,14 @@ MonoBehaviour:
       Interval: Interval 5 min
   - nombre: TV ESTABLE
     animacion: {fileID: 7400000, guid: d3558cb6e648bf34c9fd9a32aae85bf5, type: 2}
-    verde: {fileID: 21300000, guid: a1107d8dac9a9fe4599c12140d14fb23, type: 3}
-    rojo: {fileID: 21300000, guid: 3ce52e289a323fa4491e5dbec9d6abfe, type: 3}
-    amarillo: {fileID: 21300000, guid: 50755c3e8fbccf04792c76830d78537e, type: 3}
-    azul: {fileID: 21300000, guid: 339b400d451c60e4db3c0ff16295a21d, type: 3}
-    verde1: {fileID: 21300000, guid: 89f289f785ee6a9468fc6fef1dfbe9c4, type: 3}
-    rojo1: {fileID: 21300000, guid: a9e8b05afc968e444ba739e6ec4ed487, type: 3}
-    amarillo1: {fileID: 21300000, guid: c15d819c74a240049a2ddabf47f57cf6, type: 3}
-    azul1: {fileID: 21300000, guid: 22eee4c98c0b162428f4b8b1a63c80b3, type: 3}
+    verde: {fileID: 21300000, guid: 77bed5dd4c98296459129ca9ac3c3d2c, type: 3}
+    rojo: {fileID: 21300000, guid: 1678ba24fbf568c41ad898b89a40d850, type: 3}
+    amarillo: {fileID: 21300000, guid: e4299d59831bf7d45829a0df09323a07, type: 3}
+    azul: {fileID: 21300000, guid: edffab60f54513542a6ef6a7b1fb39ca, type: 3}
+    verde1: {fileID: 21300000, guid: 3e54f0c6381f7c349871062ad413c225, type: 3}
+    rojo1: {fileID: 21300000, guid: 5c568e3ea7880b144bb0de642536e163, type: 3}
+    amarillo1: {fileID: 21300000, guid: fbf10bb1058c810429b6577baa2ec647, type: 3}
+    azul1: {fileID: 21300000, guid: db49a2988d133c04ca1c8cb6ecba957b, type: 3}
     numbers:
     - HRBPM: 182
       ABP1: 130/80
@@ -811,7 +811,7 @@ MonoBehaviour:
       NIPB2: (93)
       Timer: 16
       Interval: Interval 5 min
-  - nombre: TAQ ESTABLE
+  - nombre: TAQ SV ESTABLE
     animacion: {fileID: 7400000, guid: 047222a8c6fcad647b82cf1af7d56ba3, type: 2}
     verde: {fileID: 21300000, guid: 36ba80cb50892c147b8e8b9c94b6e326, type: 3}
     rojo: {fileID: 21300000, guid: 030a8051cc156b34d9f0290f408425bd, type: 3}
@@ -833,7 +833,7 @@ MonoBehaviour:
       NIPB2: (68)
       Timer: 59
       Interval: Interval 5 min
-  - nombre: TAQ INESTABLE
+  - nombre: TAQ SV INESTABLE
     animacion: {fileID: 7400000, guid: 484d1666befdf354d964bd2707528002, type: 2}
     verde: {fileID: 21300000, guid: 5b561cb3dd4640e45a38b4751e731042, type: 3}
     rojo: {fileID: 21300000, guid: 64b72c6e924a172439e3624ac32757ae, type: 3}
