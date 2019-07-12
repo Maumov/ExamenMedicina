@@ -78,16 +78,16 @@ public class VideoController : MonoBehaviour
         video = v;
         currentNumbers = 0;
         green.sprite = video.verde;
-        green1.sprite = video.verde;
+        green1.sprite = video.verde1;
 
         red.sprite = video.rojo;
-        red1.sprite = video.rojo;
+        red1.sprite = video.rojo1;
 
         yellow.sprite = video.amarillo;
-        yellow1.sprite = video.amarillo;
+        yellow1.sprite = video.amarillo1;
 
         white.sprite = video.azul;
-        white1.sprite = video.azul;
+        white1.sprite = video.azul1;
         Numeros();
     }
 
