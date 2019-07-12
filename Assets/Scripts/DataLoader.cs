@@ -69,6 +69,17 @@ public class DataLoader : MonoBehaviour {
         return null;
     }
 
+    public Video GetVideo(string nom) {
+        foreach(Video v in videos) {
+            if(v.nombre == nom) {
+                return v;
+            }
+        }
+
+        return null;
+    }
+
+
     //Profesores
     #region
     IEnumerator GetProfesores() {
@@ -231,10 +242,13 @@ public class DataLoader : MonoBehaviour {
         
         Question p = new Question();
         string[] d = data.Split('{');
+
         string[] values = d[0].Split(',');
+
+        string[] parrafoSplit = d[0].Split('"');
         p.id = values[0];
-        p.parrafo = values[1];
-        p.video = values[2];
+        p.parrafo = parrafoSplit[1];
+        p.video = parrafoSplit[2].Substring(1,parrafoSplit[2].Length-2);
 
         p.preguntas = new List<string>();
         d[1] = d[1].Substring(0, d[1].Length - 1);
