@@ -62,6 +62,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 48e114054508ecf4cb714f541e679cc9, type: 3}
     amarillo1: {fileID: 21300000, guid: c4ee5458c4018aa4a9f83bc3c0fbdf98, type: 3}
     azul1: {fileID: 21300000, guid: b2d7ec961b37cb84abe1d2062468dae9, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 70
       ABP1: 0/0
@@ -84,6 +86,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 858a68cc2a0b4b54185a701755f6f777, type: 3}
     amarillo1: {fileID: 21300000, guid: 29f6cdcf5ed79884b80c6cd6dc187222, type: 3}
     azul1: {fileID: 21300000, guid: 14c383819e4fad14198c5c604b541e54, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: '---'
       ABP1: 0/0
@@ -106,6 +110,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: c0e8a1e5af5623b40ae8b7782708f1ac, type: 3}
     amarillo1: {fileID: 21300000, guid: 02a9877eb36d95f458b1f1f7d3ce5e0e, type: 3}
     azul1: {fileID: 21300000, guid: bd98a5baad2416241bc8e2244e4e080a, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 80
       ABP1: 120/80
@@ -128,6 +134,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 3f9d78bc1ac1b5a4a9ad36f751984453, type: 3}
     amarillo1: {fileID: 21300000, guid: b0354499c92444b4fa24a66126c5a132, type: 3}
     azul1: {fileID: 21300000, guid: 2f631fcaf1dad9e48bf86ea93000e9a1, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 55
       ABP1: 120/80
@@ -172,6 +180,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 8002a9a13005249488e00eea7381290f, type: 3}
     amarillo1: {fileID: 21300000, guid: d49359bf6ee07bf4c826802bb78919a9, type: 3}
     azul1: {fileID: 21300000, guid: 19a738206c9076548b4221d70ac9c8f5, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 48
       ABP1: 120/80
@@ -205,6 +215,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: ec20bc3cc3a11e64daa830d891bafff7, type: 3}
     amarillo1: {fileID: 21300000, guid: 8eea2136e4b1a0a4aac26275d698efe4, type: 3}
     azul1: {fileID: 21300000, guid: af74b666879bf2b4c86399b53b0d8d50, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 29
       ABP1: 88/48
@@ -227,6 +239,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 9a7826b394515494ea55924469ed825b, type: 3}
     amarillo1: {fileID: 21300000, guid: 9511f5a79f6d9c24c8f93120c66804cb, type: 3}
     azul1: {fileID: 21300000, guid: c62057f3078e5fd43b8ef7cdd6dd127e, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 44
       ABP1: 120/80
@@ -249,6 +263,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 3aec4e5b90004ee4ca7182feae769246, type: 3}
     amarillo1: {fileID: 21300000, guid: 0314a127e60b2a1459709d7463afd53d, type: 3}
     azul1: {fileID: 21300000, guid: 7de68108784402d42a69edc707bc9491, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 147
       ABP1: 120/80
@@ -504,7 +520,7 @@ MonoBehaviour:
       Timer: 108
       Interval: Interval 5 min
   - nombre: FA INESTABLE
-    animacion: {fileID: 7400000, guid: 9b9c7487533ca98478326b92d903b82b, type: 2}
+    animacion: {fileID: 7400000, guid: bcac764c5d0f2814db7288a81c8c3707, type: 2}
     verde: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
     rojo: {fileID: 21300000, guid: 7304d54ef68e18742998f4cca60b3d32, type: 3}
     amarillo: {fileID: 21300000, guid: 7f83754d8a21b5e489b79669e9bf3394, type: 3}
@@ -513,6 +529,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 4723a73832aafcd42b51dbd754e91617, type: 3}
     amarillo1: {fileID: 21300000, guid: 89e8ed125c8476c4180631193ef0e48f, type: 3}
     azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 158
       ABP1: 80/60
@@ -755,6 +773,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 5c568e3ea7880b144bb0de642536e163, type: 3}
     amarillo1: {fileID: 21300000, guid: fbf10bb1058c810429b6577baa2ec647, type: 3}
     azul1: {fileID: 21300000, guid: db49a2988d133c04ca1c8cb6ecba957b, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 182
       ABP1: 130/80
@@ -768,7 +788,7 @@ MonoBehaviour:
       Timer: 227
       Interval: Interval 5 min
   - nombre: TV INESTABLE
-    animacion: {fileID: 7400000, guid: 7055fdb56aeee0e47afad3882ec44d50, type: 2}
+    animacion: {fileID: 7400000, guid: 7371529e117db1c4284e27eb5d5e5c53, type: 2}
     verde: {fileID: 21300000, guid: 77bed5dd4c98296459129ca9ac3c3d2c, type: 3}
     rojo: {fileID: 21300000, guid: 1678ba24fbf568c41ad898b89a40d850, type: 3}
     amarillo: {fileID: 21300000, guid: e4299d59831bf7d45829a0df09323a07, type: 3}
@@ -777,6 +797,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 5c568e3ea7880b144bb0de642536e163, type: 3}
     amarillo1: {fileID: 21300000, guid: fbf10bb1058c810429b6577baa2ec647, type: 3}
     azul1: {fileID: 21300000, guid: db49a2988d133c04ca1c8cb6ecba957b, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 182
       ABP1: 86/44
@@ -799,6 +821,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 0fb70065bfbee7e4f9d13b7e55c895e1, type: 3}
     amarillo1: {fileID: 21300000, guid: eea6563ed1939ac469a13d2d8a0889c5, type: 3}
     azul1: {fileID: 21300000, guid: e07d1171c7a73234fae695aa3ae44ddf, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 182
       ABP1: 0/0
@@ -821,6 +845,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: bfec3847b978fb0438b74c7018448bb3, type: 3}
     amarillo1: {fileID: 21300000, guid: 002536722d5b1de418dc8cd71e2e356c, type: 3}
     azul1: {fileID: 21300000, guid: d427b1526c2b2ff429279ccef0e59610, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 182
       ABP1: 120/80
@@ -843,6 +869,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: c2f0e3e026dce9241825faf7653981cd, type: 3}
     amarillo1: {fileID: 21300000, guid: 4daf2ce53a9c88d469eb8f81a31f101c, type: 3}
     azul1: {fileID: 21300000, guid: 02e7df993f665fa46acaee320eecee82, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: 182
       ABP1: 82/64
@@ -865,6 +893,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 61f377559b9682541b53a2a43f0f2c7f, type: 3}
     amarillo1: {fileID: 21300000, guid: 98a2a9661f9c24f4a8d1ac287325f2ce, type: 3}
     azul1: {fileID: 21300000, guid: cf8363d333f6c704cbc418d7e0eb2689, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
     - HRBPM: '---'
       ABP1: 0/0

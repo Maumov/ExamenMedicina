@@ -193,6 +193,8 @@ public class Video {
     public Sprite rojo1;
     public Sprite amarillo1;
     public Sprite azul1;
+    public Sprite rrpm;
+    public Sprite rrpm1;
     public List<Numeros> numbers;
 }
 [System.Serializable]
