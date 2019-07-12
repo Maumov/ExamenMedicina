@@ -256,12 +256,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionTest:
-    id: 002
-    parrafo: El parrafo va aqui2
-    video: el video va aqui2
+    id: 001
+    parrafo: "PACIENTE MASCULINO DE 38 A\xD1OS, SIN ANTECEDENTES DE IMPORTANCIA, QUIEN
+      INGRESA POR CUADRO CL\xEDNICO DE 48 HRS DE EVOLUCI\xD3N CARACTERIZADO POR DEBILIDAD
+      GENERALIZADA, DEPOSICIONES L\xEDQUIDAS EN N\xDAMERO  DE 15/D\xCDA SIN MOCO NI
+      SANGRE, DOLOR ABDOMINAL DIFUSO, N\xC1USEAS. USTED OBSERVA EL MONITOR A CONTINUACI\xD3N: "
+    video: TQ SINUSAL
     preguntas:
-    - pregunta 12
-    - pregunta 22
+    - RITMO DEL PACIENTE
+    - CONDUCTA A SEGUIR
     respuestas: []
   estudianteTest:
     id: 001
@@ -304,6 +307,7 @@ MonoBehaviour:
   examenes: []
   preguntas: []
   codigos: []
+  videos: []
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
