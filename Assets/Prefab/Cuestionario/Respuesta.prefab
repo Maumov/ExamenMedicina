@@ -115,6 +115,7 @@ GameObject:
   - component: {fileID: 1675890987944261853}
   - component: {fileID: 94976220988510802}
   - component: {fileID: 5435497018163618506}
+  - component: {fileID: -5147755684774401534}
   m_Layer: 5
   m_Name: Respuesta
   m_TagString: Untagged
@@ -305,3 +306,15 @@ MonoBehaviour:
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
+--- !u!114 &-5147755684774401534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675890987944261827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71c4147391f8ee47afc599bc3ab9d48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
