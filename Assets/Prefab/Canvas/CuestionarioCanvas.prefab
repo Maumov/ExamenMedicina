@@ -631,7 +631,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7c7631cf33bc18c41a2729af58dcd797, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9dcdce3ffe443b84d989df792f1d55df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -771,6 +771,9 @@ MonoBehaviour:
   Respuesta: {fileID: 1675890987944261827, guid: a52213ef16be06e479d971f7ed319ce7,
     type: 3}
   dataLoader: {fileID: 0}
+  inputs: []
+  videoController: {fileID: 0}
+  videoControllerGameObject: {fileID: 0}
 --- !u!1 &7398128565380377240
 GameObject:
   m_ObjectHideFlags: 0
