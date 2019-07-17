@@ -58,28 +58,35 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.4666667
+  - time: 1.1833333
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 3.4
+  - time: 3.1833334
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.8333335
+  - time: 4.5833335
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 7.45
+  - time: 6.5833335
+    functionName: Sonido
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 8.416667
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}

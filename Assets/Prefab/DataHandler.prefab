@@ -231,7 +231,7 @@ MonoBehaviour:
       Interval: Interval 5 min
   - nombre: BRAD SINUSAL
     animacion: {fileID: 7400000, guid: e336d252580967d48a2c305ebe7899ab, type: 2}
-    verde: {fileID: 21300000, guid: d15a48a58a174fc44a29cb3bfab91b1c, type: 3}
+    verde: {fileID: 21300000, guid: 8fe3241592c1ca045a860963c52aad1a, type: 3}
     rojo: {fileID: 21300000, guid: 187fb8b71e9a09343a10222c685d5233, type: 3}
     amarillo: {fileID: 21300000, guid: bb5ab4afe41805d49a922cf051209744, type: 3}
     azul: {fileID: 21300000, guid: 634c4841cc534d140b816e2c955982d2, type: 3}
@@ -788,7 +788,7 @@ MonoBehaviour:
       Timer: 227
       Interval: Interval 5 min
   - nombre: TV INESTABLE
-    animacion: {fileID: 7400000, guid: 7371529e117db1c4284e27eb5d5e5c53, type: 2}
+    animacion: {fileID: 7400000, guid: 53defbafbd2ebd741b07fc5aa8791b71, type: 2}
     verde: {fileID: 21300000, guid: 77bed5dd4c98296459129ca9ac3c3d2c, type: 3}
     rojo: {fileID: 21300000, guid: 1678ba24fbf568c41ad898b89a40d850, type: 3}
     amarillo: {fileID: 21300000, guid: e4299d59831bf7d45829a0df09323a07, type: 3}
@@ -860,12 +860,12 @@ MonoBehaviour:
       Timer: 59
       Interval: Interval 5 min
   - nombre: TAQ SV INESTABLE
-    animacion: {fileID: 7400000, guid: 484d1666befdf354d964bd2707528002, type: 2}
-    verde: {fileID: 21300000, guid: 5b561cb3dd4640e45a38b4751e731042, type: 3}
+    animacion: {fileID: 7400000, guid: 363d8f0e08d599f478e908ef7b64c308, type: 2}
+    verde: {fileID: 21300000, guid: 36ba80cb50892c147b8e8b9c94b6e326, type: 3}
     rojo: {fileID: 21300000, guid: 64b72c6e924a172439e3624ac32757ae, type: 3}
     amarillo: {fileID: 21300000, guid: d501ebbc0f4fe1248b1614c4097c934d, type: 3}
     azul: {fileID: 21300000, guid: cd82dabd3e8d09847a665e19b6c2bc98, type: 3}
-    verde1: {fileID: 21300000, guid: 4e19d44a0419f6b4aac16c2e03755323, type: 3}
+    verde1: {fileID: 21300000, guid: 865f00204f54c304cafa9381567b2b00, type: 3}
     rojo1: {fileID: 21300000, guid: c2f0e3e026dce9241825faf7653981cd, type: 3}
     amarillo1: {fileID: 21300000, guid: 4daf2ce53a9c88d469eb8f81a31f101c, type: 3}
     azul1: {fileID: 21300000, guid: 02e7df993f665fa46acaee320eecee82, type: 3}

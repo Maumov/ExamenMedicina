@@ -58,7 +58,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.11666667
+  - time: 0.083333336
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -72,126 +72,126 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.6666667
+  - time: 0.75
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1
+  - time: 1.0833334
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.2666667
+  - time: 1.4166666
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.5166667
+  - time: 1.75
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.7833333
+  - time: 2.0833333
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.0666666
+  - time: 2.4166667
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.3833334
+  - time: 2.75
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.6833334
+  - time: 3.0833333
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 3
+  - time: 3.4166667
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 3.35
+  - time: 3.75
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 3.7166667
+  - time: 4.0833335
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 4.1833334
+  - time: 4.4166665
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 4.5666666
+  - time: 4.7
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.1
+  - time: 5
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.4666667
+  - time: 5.3166666
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.7
+  - time: 5.65
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 6.0333333
+  - time: 5.983333
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 6.3333335
+  - time: 6.2833333
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -205,56 +205,49 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 6.866667
+  - time: 6.9166665
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 7.0833335
+  - time: 7.25
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 7.35
+  - time: 7.5666666
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 7.633333
+  - time: 7.9166665
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 7.95
+  - time: 8.233334
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 8.283334
+  - time: 8.566667
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 8.683333
-    functionName: Sonido
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 9
+  - time: 8.9
     functionName: Sonido
     data: 
     objectReferenceParameter: {fileID: 0}
