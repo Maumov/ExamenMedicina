@@ -253,7 +253,7 @@ public class DataLoader : MonoBehaviour {
         p.preguntas = new List<string>();
         d[1] = d[1].Substring(0, d[1].Length - 1);
         string[] d2 = d[1].Split('}');
-        p.preguntas.AddRange(d2[0].Split(','));
+        p.preguntas.AddRange(d2[0].Split(';'));
 
         p.respuestas = new List<string>();
         for(int i = 0; i < p.preguntas.Count; i++ ) {
