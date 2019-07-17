@@ -33,7 +33,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TQ SV INESTABLE
+  m_Name: TAQ SV INESTABLE
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -267,7 +267,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TQ SV ESTABLE
+  m_Name: TAQ SV ESTABLE
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -418,7 +418,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AESP
+  m_Name: AESP1
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -470,7 +470,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TVSP
+  m_Name: TV SP
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -830,7 +830,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7371529e117db1c4284e27eb5d5e5c53, type: 2}
+  m_Motion: {fileID: 7400000, guid: 53defbafbd2ebd741b07fc5aa8791b71, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -1090,7 +1090,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 484d1666befdf354d964bd2707528002, type: 2}
+  m_Motion: {fileID: 7400000, guid: 363d8f0e08d599f478e908ef7b64c308, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
