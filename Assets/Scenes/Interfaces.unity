@@ -867,16 +867,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6887146668757110353, guid: e9ef3344f53b9c14d81ab5edfa99dfa2,
-        type: 3}
-      propertyPath: m_ChildControlWidth
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6887146668757110353, guid: e9ef3344f53b9c14d81ab5edfa99dfa2,
-        type: 3}
-      propertyPath: m_ChildControlHeight
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3960320369806450004, guid: e9ef3344f53b9c14d81ab5edfa99dfa2,
         type: 3}
       propertyPath: m_Name
@@ -885,6 +875,16 @@ PrefabInstance:
     - target: {fileID: 3960320369806450004, guid: e9ef3344f53b9c14d81ab5edfa99dfa2,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887146668757110353, guid: e9ef3344f53b9c14d81ab5edfa99dfa2,
+        type: 3}
+      propertyPath: m_ChildControlWidth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887146668757110353, guid: e9ef3344f53b9c14d81ab5edfa99dfa2,
+        type: 3}
+      propertyPath: m_ChildControlHeight
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8213281199203285118, guid: e9ef3344f53b9c14d81ab5edfa99dfa2,
