@@ -100,7 +100,8 @@ public class ExamenViewer : MonoBehaviour {
     }
     public void CreateRespuesta() {
         GameObject go = Instantiate(Respuesta, origin);
-        inputs.Add(go.GetComponent<InputField>()); 
+        inputs.Add(go.GetComponent<InputField>());
+        go.name = go.name + inputs.Count;
     }
 
     public void DeleteContent() {
