@@ -86,8 +86,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 858a68cc2a0b4b54185a701755f6f777, type: 3}
     amarillo1: {fileID: 21300000, guid: 29f6cdcf5ed79884b80c6cd6dc187222, type: 3}
     azul1: {fileID: 21300000, guid: 14c383819e4fad14198c5c604b541e54, type: 3}
-    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
-    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm: {fileID: 21300000, guid: 96a9e760934187f45ab972b3149924c3, type: 3}
+    rrpm1: {fileID: 21300000, guid: 96a9e760934187f45ab972b3149924c3, type: 3}
     numbers:
     - HRBPM: '---'
       ABP1: 0/0
@@ -118,7 +118,7 @@ MonoBehaviour:
       ABP2: (93)
       SpO2: 98
       CO2: '---'
-      RespRate: '---'
+      RespRate: 19
       TempC: 37.2
       NIPB1: 120/80
       NIPB2: (93)
@@ -142,7 +142,7 @@ MonoBehaviour:
       ABP2: (93)
       SpO2: 98
       CO2: '---'
-      RespRate: '---'
+      RespRate: 19
       TempC: 37.2
       NIPB1: 120/80
       NIPB2: (93)
@@ -153,7 +153,7 @@ MonoBehaviour:
       ABP2: (93)
       SpO2: 98
       CO2: '---'
-      RespRate: '---'
+      RespRate: 19
       TempC: 37.2
       NIPB1: 120/80
       NIPB2: (93)
@@ -164,7 +164,7 @@ MonoBehaviour:
       ABP2: (93)
       SpO2: 98
       CO2: '---'
-      RespRate: '---'
+      RespRate: 19
       TempC: 37.2
       NIPB1: 120/80
       NIPB2: (93)
@@ -188,7 +188,7 @@ MonoBehaviour:
       ABP2: (93)
       SpO2: 98
       CO2: '---'
-      RespRate: '---'
+      RespRate: 19
       TempC: 37.2
       NIPB1: 120/80
       NIPB2: (93)
@@ -199,7 +199,7 @@ MonoBehaviour:
       ABP2: (93)
       SpO2: 98
       CO2: '---'
-      RespRate: '---'
+      RespRate: 19
       TempC: 37.2
       NIPB1: 120/80
       NIPB2: (93)
@@ -222,8 +222,8 @@ MonoBehaviour:
       ABP1: 88/48
       ABP2: (61)
       SpO2: 98
-      CO2: 34
-      RespRate: 24
+      CO2: 38
+      RespRate: 20
       TempC: 37.2
       NIPB1: 94/54
       NIPB2: (67)
@@ -234,11 +234,11 @@ MonoBehaviour:
     verde: {fileID: 21300000, guid: 8fe3241592c1ca045a860963c52aad1a, type: 3}
     rojo: {fileID: 21300000, guid: 187fb8b71e9a09343a10222c685d5233, type: 3}
     amarillo: {fileID: 21300000, guid: bb5ab4afe41805d49a922cf051209744, type: 3}
-    azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
+    azul: {fileID: 21300000, guid: 14c383819e4fad14198c5c604b541e54, type: 3}
     verde1: {fileID: 21300000, guid: 8fe3241592c1ca045a860963c52aad1a, type: 3}
     rojo1: {fileID: 21300000, guid: 9a7826b394515494ea55924469ed825b, type: 3}
     amarillo1: {fileID: 21300000, guid: 9511f5a79f6d9c24c8f93120c66804cb, type: 3}
-    azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
+    azul1: {fileID: 21300000, guid: 14c383819e4fad14198c5c604b541e54, type: 3}
     rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
@@ -270,7 +270,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -281,7 +281,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -292,7 +292,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -303,7 +303,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -314,7 +314,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -325,7 +325,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -336,7 +336,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -347,7 +347,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -358,7 +358,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -369,7 +369,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -380,7 +380,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -391,7 +391,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -402,7 +402,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -413,7 +413,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -424,7 +424,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -435,7 +435,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -446,7 +446,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -457,7 +457,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -468,7 +468,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -479,7 +479,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -490,7 +490,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -501,7 +501,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -512,7 +512,7 @@ MonoBehaviour:
       ABP1: 120/80
       ABP2: (93)
       SpO2: 98
-      CO2: 34
+      CO2: 40
       RespRate: 19
       TempC: 37.2
       NIPB1: 82/70
@@ -536,7 +536,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -547,7 +547,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -558,7 +558,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -569,7 +569,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -580,7 +580,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -591,7 +591,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -602,7 +602,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -613,7 +613,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -624,7 +624,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -635,7 +635,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -646,7 +646,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -657,7 +657,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -668,7 +668,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -679,7 +679,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -690,7 +690,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -701,7 +701,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -712,7 +712,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -723,7 +723,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -734,7 +734,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -745,7 +745,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -756,7 +756,7 @@ MonoBehaviour:
       ABP1: 80/60
       ABP2: (66)
       SpO2: 80
-      CO2: 40
+      CO2: 35
       RespRate: 23
       TempC: 37.2
       NIPB1: 80/60
@@ -821,8 +821,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 0fb70065bfbee7e4f9d13b7e55c895e1, type: 3}
     amarillo1: {fileID: 21300000, guid: eea6563ed1939ac469a13d2d8a0889c5, type: 3}
     azul1: {fileID: 21300000, guid: e07d1171c7a73234fae695aa3ae44ddf, type: 3}
-    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
-    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm: {fileID: 21300000, guid: 8aa7b01fecd650e4485fbf395303e6cc, type: 3}
+    rrpm1: {fileID: 21300000, guid: e07d1171c7a73234fae695aa3ae44ddf, type: 3}
     numbers:
     - HRBPM: 182
       ABP1: 0/0
@@ -901,7 +901,7 @@ MonoBehaviour:
       ABP2: (93)
       SpO2: 98
       CO2: 34
-      RespRate: 16
+      RespRate: 19
       TempC: 37.2
       NIPB1: 0/0
       NIPB2: (0)
@@ -917,8 +917,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 950bfbc1fef056b44a984228d1358a4d, type: 3}
     amarillo1: {fileID: 21300000, guid: 9d162f4c9ddcb9c40a2f5e16c4ae463b, type: 3}
     azul1: {fileID: 21300000, guid: 51a19061058d275419119130f0146528, type: 3}
-    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
-    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm: {fileID: 21300000, guid: 2fa04030d14df254d8ead5a21ef84247, type: 3}
+    rrpm1: {fileID: 21300000, guid: 51a19061058d275419119130f0146528, type: 3}
     numbers:
     - HRBPM: '---'
       ABP1: 0/0
@@ -941,8 +941,8 @@ MonoBehaviour:
     rojo1: {fileID: 21300000, guid: 5bad7b0b653fd7a489b76a63c0117d61, type: 3}
     amarillo1: {fileID: 21300000, guid: 0c38a9e24988f1a4788cad5cc57a579d, type: 3}
     azul1: {fileID: 21300000, guid: d8600020697817140a4ae75131541979, type: 3}
-    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
-    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm: {fileID: 21300000, guid: 547b63a50d98a6740b021f1c550cd716, type: 3}
+    rrpm1: {fileID: 21300000, guid: d8600020697817140a4ae75131541979, type: 3}
     numbers:
     - HRBPM: '---'
       ABP1: 0/0
