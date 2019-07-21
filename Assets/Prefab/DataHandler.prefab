@@ -210,11 +210,11 @@ MonoBehaviour:
     verde: {fileID: 21300000, guid: c3052a807a814df439a4688b984f1fb3, type: 3}
     rojo: {fileID: 21300000, guid: 2f51f6e67074a904482c64c299a90d54, type: 3}
     amarillo: {fileID: 21300000, guid: 904024e36209dbd43854a00b1c628bf1, type: 3}
-    azul: {fileID: 21300000, guid: 66d4a4b9e8b4ed94d909fb1ae55f16fe, type: 3}
+    azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
     verde1: {fileID: 21300000, guid: 2d33763bb6f0fe5419d50b8ff38ea842, type: 3}
     rojo1: {fileID: 21300000, guid: ec20bc3cc3a11e64daa830d891bafff7, type: 3}
     amarillo1: {fileID: 21300000, guid: 8eea2136e4b1a0a4aac26275d698efe4, type: 3}
-    azul1: {fileID: 21300000, guid: af74b666879bf2b4c86399b53b0d8d50, type: 3}
+    azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
     rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
@@ -234,11 +234,11 @@ MonoBehaviour:
     verde: {fileID: 21300000, guid: 8fe3241592c1ca045a860963c52aad1a, type: 3}
     rojo: {fileID: 21300000, guid: 187fb8b71e9a09343a10222c685d5233, type: 3}
     amarillo: {fileID: 21300000, guid: bb5ab4afe41805d49a922cf051209744, type: 3}
-    azul: {fileID: 21300000, guid: 634c4841cc534d140b816e2c955982d2, type: 3}
+    azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
     verde1: {fileID: 21300000, guid: 8fe3241592c1ca045a860963c52aad1a, type: 3}
     rojo1: {fileID: 21300000, guid: 9a7826b394515494ea55924469ed825b, type: 3}
     amarillo1: {fileID: 21300000, guid: 9511f5a79f6d9c24c8f93120c66804cb, type: 3}
-    azul1: {fileID: 21300000, guid: c62057f3078e5fd43b8ef7cdd6dd127e, type: 3}
+    azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
     rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
@@ -258,11 +258,11 @@ MonoBehaviour:
     verde: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
     rojo: {fileID: 21300000, guid: 5bf32d80ce28a714d9f07bc7730ec1b4, type: 3}
     amarillo: {fileID: 21300000, guid: 39f3eed669205264486cff14f9784095, type: 3}
-    azul: {fileID: 21300000, guid: a7802256a51768b41922bc58642805e3, type: 3}
+    azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
     verde1: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
     rojo1: {fileID: 21300000, guid: 3aec4e5b90004ee4ca7182feae769246, type: 3}
     amarillo1: {fileID: 21300000, guid: 0314a127e60b2a1459709d7463afd53d, type: 3}
-    azul1: {fileID: 21300000, guid: 7de68108784402d42a69edc707bc9491, type: 3}
+    azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
     rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
@@ -888,25 +888,25 @@ MonoBehaviour:
     verde: {fileID: 21300000, guid: b3e03dac002c3e3438b5016c61a9c654, type: 3}
     rojo: {fileID: 21300000, guid: c2a5d8f7487550b4ab891b4ad32efb2b, type: 3}
     amarillo: {fileID: 21300000, guid: 495744a01c167db4a9fa7f49de098043, type: 3}
-    azul: {fileID: 21300000, guid: 3d46d4340f4d145488e142851167f5a1, type: 3}
+    azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
     verde1: {fileID: 21300000, guid: b3e03dac002c3e3438b5016c61a9c654, type: 3}
     rojo1: {fileID: 21300000, guid: 61f377559b9682541b53a2a43f0f2c7f, type: 3}
     amarillo1: {fileID: 21300000, guid: 98a2a9661f9c24f4a8d1ac287325f2ce, type: 3}
-    azul1: {fileID: 21300000, guid: cf8363d333f6c704cbc418d7e0eb2689, type: 3}
+    azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
     rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
     numbers:
-    - HRBPM: '---'
-      ABP1: 0/0
-      ABP2: (0)
-      SpO2: '---'
-      CO2: '---'
-      RespRate: '---'
+    - HRBPM: 140
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 16
       TempC: 37.2
       NIPB1: 0/0
       NIPB2: (0)
-      Timer: 87
-      Interval: Interval 5 min
+      Timer: 168
+      Interval: Interval 9 min
   - nombre: FV GRUESA
     animacion: {fileID: 7400000, guid: f2995da19dad28e4ca3188bc248350a7, type: 2}
     verde: {fileID: 21300000, guid: b97dd1f29d0884649b45cb974481513c, type: 3}
