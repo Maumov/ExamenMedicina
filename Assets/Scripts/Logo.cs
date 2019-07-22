@@ -8,7 +8,6 @@ public class Logo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(GoToInicio());
     }
 
     // Update is called once per frame
@@ -17,6 +16,10 @@ public class Logo : MonoBehaviour
         
     }
 
+    public void StartInicioCoroutine()
+    {
+        StartCoroutine(GoToInicio());
+    }
 
     IEnumerator GoToInicio() {
 
