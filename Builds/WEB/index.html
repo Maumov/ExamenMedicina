@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
@@ -10,15 +11,13 @@
     <script src="Build/UnityLoader.js"></script>
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WEB.json", {onProgress: UnityProgress});
-    </script>
+	</script>
   </head>
   <body>
     <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div id="unityContainer" style="width: 480px; height: 850px"></div>
       <div class="footer">
-        <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">ExamenMedicina</div>
       </div>
     </div>
   </body>
