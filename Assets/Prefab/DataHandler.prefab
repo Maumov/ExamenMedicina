@@ -903,8 +903,8 @@ MonoBehaviour:
       CO2: 34
       RespRate: 19
       TempC: 37.2
-      NIPB1: 0/0
-      NIPB2: (0)
+      NIPB1: 110/70
+      NIPB2: (83)
       Timer: 168
       Interval: Interval 9 min
   - nombre: FV GRUESA
