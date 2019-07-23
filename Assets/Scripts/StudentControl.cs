@@ -83,28 +83,36 @@ public class StudentControl : MonoBehaviour
     }
 
     public void SendRespuestas() {
-        StartCoroutine(SendRespuestas2());
+        StartCoroutine(SendRespuestas2(false));
     }
 
-    IEnumerator SendRespuestas2() {
+    public void OnApplicationPause(bool pause) {
+        if(pause) {
+            StartCoroutine(SendRespuestas2(true));
+        }
+    }
+
+
+    IEnumerator SendRespuestas2(bool failed) {
         string url = "https://docs.google.com/forms/d/1ZrGX524BP69VbLBdsQMhoOaS9zQFQdIbfly4WWlQs8E/formResponse?embedded=true";
         WWWForm form = new WWWForm();
+        if(estudiante.nombre != "") {
+            form.AddField("entry.83696122", estudiante.id);
+            form.AddField("entry.2073131150", estudiante.nombre);
+            form.AddField("entry.2121727155", failed? "Anulado" : "");
+            form.AddField("entry.335580683", examen.nombre);
+            //-----
 
-        form.AddField("entry.83696122", estudiante.id);
-        form.AddField("entry.2073131150", estudiante.nombre);
-        form.AddField("entry.2121727155", estudiante.apellido);
-        form.AddField("entry.335580683", examen.nombre);
-        //-----
-        
-        string preguntasYrespuestas = "";
-        for(int i = 0; i< preguntas.Count; i++) {
-            preguntasYrespuestas += preguntas[i].ToString();
-        }
-        form.AddField("entry.1465623747", preguntasYrespuestas);
-        WWW www = new WWW(url, form);
-        yield return www;
-        Debug.Log(www.text);
-        yield return null;
-        Debug.Log("Sent");
+            string preguntasYrespuestas = "";
+            for(int i = 0; i < preguntas.Count; i++) {
+                preguntasYrespuestas += preguntas[i].ToString();
+            }
+            form.AddField("entry.1465623747", preguntasYrespuestas);
+            WWW www = new WWW(url, form);
+            yield return www;
+            Debug.Log(www.text);
+            yield return null;
+            Debug.Log("Sent");
+        } 
     }
 }
