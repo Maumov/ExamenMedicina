@@ -9,7 +9,7 @@ public class EstudianteCodigoLoginViewer : BaseInterface {
     //public StudentControl studentControl;
 
     private void Start() {
-        nombreEstudiante.text = studentControl.estudiante.nombre + " " + studentControl.estudiante.apellido;
+        nombreEstudiante.text = studentControl.estudiante.nombre;
         studentControl.OnEnteredCode += NextInterface;
     }
 

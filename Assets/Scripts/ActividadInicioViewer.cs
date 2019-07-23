@@ -12,7 +12,7 @@ public class ActividadInicioViewer : BaseInterface {
     public Text nombreEstudiante;
 
     private void Start() {
-        nombreEstudiante.text = studentControl.estudiante.nombre + " " + studentControl.estudiante.apellido;
+        nombreEstudiante.text = studentControl.estudiante.nombre;
     }
 
     public void BotonTaller()
