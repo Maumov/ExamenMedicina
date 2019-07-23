@@ -23,6 +23,9 @@ public class ExamenViewer : MonoBehaviour {
 
     public VideoController videoController;
     public GameObject videoControllerGameObject;
+
+    public GameObject NextInterface;
+
     private void OnEnable() {
         ShowExamen();
     }
@@ -41,7 +44,8 @@ public class ExamenViewer : MonoBehaviour {
             //EnviarExamen
             studentControl.SendRespuestas();
             //-----------
-
+            NextInterface.SetActive(true);
+            gameObject.SetActive(false);
         }
         
     }
@@ -51,7 +55,7 @@ public class ExamenViewer : MonoBehaviour {
         Question q = dataLoader.GetQuestion(id);
         videoControllerGameObject.SetActive(true);
         videoController.SetVideo(dataLoader.GetVideo(q.video));
-        Invoke("HideVideo",15f);
+        Invoke("HideVideo",20f);
     }
 
     public void HideVideo() {
