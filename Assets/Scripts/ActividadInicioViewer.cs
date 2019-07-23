@@ -1,12 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class ActividadInicioViewer : MonoBehaviour
-{
+public class ActividadInicioViewer : BaseInterface {
+
     public GameObject inicioTallerCanvas;
     public GameObject inicioPracticaCanvas;
     public GameObject inicioExamenCanvas;
+
+    public Text nombreEstudiante;
+
+    private void Start() {
+        nombreEstudiante.text = studentControl.estudiante.nombre + " " + studentControl.estudiante.apellido;
+    }
 
     public void BotonTaller()
     {

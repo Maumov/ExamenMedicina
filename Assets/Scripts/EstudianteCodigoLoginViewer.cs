@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class EstudianteCodigoLoginViewer : BaseInterface {
     public InputField codigo;
-
+    public Text nombreEstudiante;
     //public StudentControl studentControl;
 
     private void Start() {
+        nombreEstudiante.text = studentControl.estudiante.nombre + " " + studentControl.estudiante.apellido;
         studentControl.OnEnteredCode += NextInterface;
     }
 
