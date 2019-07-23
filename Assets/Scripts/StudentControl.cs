@@ -86,6 +86,13 @@ public class StudentControl : MonoBehaviour
         StartCoroutine(SendRespuestas2());
     }
 
+    public void OnApplicationPause(bool pause) {
+        if(pause) {
+            StartCoroutine(SendRespuestas2());
+        }
+    }
+
+
     IEnumerator SendRespuestas2() {
         string url = "https://docs.google.com/forms/d/1ZrGX524BP69VbLBdsQMhoOaS9zQFQdIbfly4WWlQs8E/formResponse?embedded=true";
         WWWForm form = new WWWForm();
