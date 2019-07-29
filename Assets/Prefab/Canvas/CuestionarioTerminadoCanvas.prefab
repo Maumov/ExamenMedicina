@@ -558,7 +558,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8245659925809260704}
+      - m_Target: {fileID: 0}
         m_MethodName: ButtonPressed
         m_Mode: 1
         m_Arguments:
@@ -583,7 +583,7 @@ GameObject:
   - component: {fileID: 2911309151223616879}
   - component: {fileID: 1370952623090589958}
   - component: {fileID: 3864770611761612665}
-  - component: {fileID: 8245659925809260704}
+  - component: {fileID: 3614821436490937938}
   m_Layer: 5
   m_Name: CuestionarioTerminadoCanvas
   m_TagString: Untagged
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8245659925809260704
+--- !u!114 &3614821436490937938
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -681,11 +681,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7208326726388861660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61f313a1fdb8d55488570989d5da291a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6febeef7ff1791d428fafd9046642d23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   NextView: {fileID: 0}
   PreviusView: {fileID: 0}
   studentControl: {fileID: 0}
   teacherControl: {fileID: 0}
-  estudiante: {fileID: 0}

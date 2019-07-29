@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Logo : MonoBehaviour
+public class Logo : BaseInterface
 {
-    public GameObject Inicio;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,19 +15,5 @@ public class Logo : MonoBehaviour
         
     }
 
-    public void StartInicioCoroutine()
-    {
-        StartCoroutine(GoToInicio());
-    }
-
-    IEnumerator GoToInicio() {
-
-
-        Inicio.SetActive(true);
-
-        yield return null;
-        gameObject.SetActive(false);
-
-
-    }
+    
 }

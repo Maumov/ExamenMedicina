@@ -26,6 +26,8 @@ public class ExamenViewer : MonoBehaviour {
 
     public GameObject NextInterface;
 
+    public PopupMessage videoMessage;
+
     private void OnEnable() {
         ShowExamen();
     }
@@ -51,12 +53,18 @@ public class ExamenViewer : MonoBehaviour {
     }
 
     public void ShowVideo() {
+        
+        videoMessage.ShowMessage(Accepted);
+    }
+
+    public void Accepted() {
         string id = examen.preguntas[currentPregunta];
         Question q = dataLoader.GetQuestion(id);
         videoControllerGameObject.SetActive(true);
         videoController.SetVideo(dataLoader.GetVideo(q.video));
-        Invoke("HideVideo",20f);
+        Invoke("HideVideo", 20f);
     }
+
 
     public void HideVideo() {
         videoControllerGameObject.SetActive(false);
