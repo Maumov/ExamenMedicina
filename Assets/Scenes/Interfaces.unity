@@ -207,7 +207,7 @@ PrefabInstance:
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
@@ -227,7 +227,7 @@ PrefabInstance:
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
@@ -237,7 +237,7 @@ PrefabInstance:
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
@@ -1426,11 +1426,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1076571624}
     m_Modifications:
-    - target: {fileID: 3614821436490937938, guid: 8393985ca7ef9394f8235d847c047c8a,
-        type: 3}
-      propertyPath: NextView
-      value: 
-      objectReference: {fileID: 6806680082184670024}
     - target: {fileID: 0}
       propertyPath: NextView
       value: 
@@ -1558,6 +1553,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3614821436490937938, guid: 8393985ca7ef9394f8235d847c047c8a,
+        type: 3}
+      propertyPath: NextView
+      value: 
+      objectReference: {fileID: 6806680082184670024}
+    - target: {fileID: 3614821436490937938, guid: 8393985ca7ef9394f8235d847c047c8a,
+        type: 3}
+      propertyPath: PreviusView
+      value: 
+      objectReference: {fileID: 89862434}
     - target: {fileID: 6103630480529681415, guid: 8393985ca7ef9394f8235d847c047c8a,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -1954,6 +1959,11 @@ PrefabInstance:
       propertyPath: inicioExamenCanvas
       value: 
       objectReference: {fileID: 6923053094230062077}
+    - target: {fileID: 4743876738378833885, guid: a2153b8d05504824ba60d98eedfc0746,
+        type: 3}
+      propertyPath: PreviusView
+      value: 
+      objectReference: {fileID: 905049554}
     - target: {fileID: 9061937309061303278, guid: a2153b8d05504824ba60d98eedfc0746,
         type: 3}
       propertyPath: m_LocalPosition.x
