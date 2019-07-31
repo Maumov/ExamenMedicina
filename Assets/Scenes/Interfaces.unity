@@ -207,7 +207,7 @@ PrefabInstance:
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
@@ -227,7 +227,7 @@ PrefabInstance:
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
@@ -237,7 +237,7 @@ PrefabInstance:
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
@@ -1426,6 +1426,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1076571624}
     m_Modifications:
+    - target: {fileID: 3614821436490937938, guid: 8393985ca7ef9394f8235d847c047c8a,
+        type: 3}
+      propertyPath: NextView
+      value: 
+      objectReference: {fileID: 6806680082184670024}
     - target: {fileID: 0}
       propertyPath: NextView
       value: 
@@ -1598,11 +1603,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: NextInterface
       objectReference: {fileID: 0}
-    - target: {fileID: 3614821436490937938, guid: 8393985ca7ef9394f8235d847c047c8a,
-        type: 3}
-      propertyPath: NextView
-      value: 
-      objectReference: {fileID: 6806680082184670024}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8393985ca7ef9394f8235d847c047c8a, type: 3}
 --- !u!114 &2019114312389231814 stripped

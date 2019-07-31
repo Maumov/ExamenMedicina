@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Sandstorm Studios
   productName: ExamenMedicina
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -638,10 +638,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: ea61c8c8-c50f-403d-a9b5-e06bf593e0a4
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: ExamenMedicina
+  organizationId: mauricio-1308356
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
